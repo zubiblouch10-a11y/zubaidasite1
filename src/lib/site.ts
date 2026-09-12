@@ -1,0 +1,119 @@
+export const site = {
+  name: "Zubaida Digital",
+  tagline: "Digital Marketing Specialist & Local SEO Agency",
+  phoneDisplay: "0313 0071224",
+  phoneHref: "tel:+923130071224",
+  whatsappNumber: "923130071224",
+  openingDate: "December 12, 2025",
+};
+
+export function waLink(message?: string) {
+  const base = `https://wa.me/${site.whatsappNumber}`;
+  return message ? `${base}?text=${encodeURIComponent(message)}` : base;
+}
+
+export type Service = {
+  id: string;
+  title: string;
+  description: string;
+  metric: string;
+  icon: string;
+};
+
+export const services: Service[] = [
+  {
+    id: "gmb",
+    title: "Google Business Profile (GMB) Optimization",
+    description:
+      "Rank in the Google Maps 3-pack and dominate local search results so nearby customers find and call you first.",
+    metric: "Top 3 Maps Ranking",
+    icon: "map-pin",
+  },
+  {
+    id: "local-seo",
+    title: "Local SEO & Search Engine Optimization",
+    description:
+      "On-page, off-page and technical SEO built to push your website up Google's rankings for the keywords that convert.",
+    metric: "Higher Organic Traffic",
+    icon: "search",
+  },
+  {
+    id: "social",
+    title: "Social Media Marketing",
+    description:
+      "Strategy, content and ads across Meta, TikTok, Pinterest and YouTube to build an audience that actually buys.",
+    metric: "Meta · TikTok · Pinterest · YouTube",
+    icon: "share",
+  },
+  {
+    id: "ecommerce",
+    title: "E-commerce Marketing & Growth",
+    description:
+      "Full-funnel campaigns and storefront optimization that turn browsers into repeat customers and higher AOV.",
+    metric: "More Sales, Lower CAC",
+    icon: "cart",
+  },
+  {
+    id: "content-reputation",
+    title: "Content Marketing & Online Reputation Management",
+    description:
+      "Consistent, on-brand content plus review and reputation management that keeps your business trusted online.",
+    metric: "5-Star Trust Signals",
+    icon: "star",
+  },
+  {
+    id: "strategy",
+    title: "Business Development & Strategy",
+    description:
+      "Data-driven growth strategy and lead generation systems tailored to your market and business goals.",
+    metric: "Scalable Growth Plans",
+    icon: "chart",
+  },
+];
+
+export type ServiceArea = {
+  country: string;
+  detail: string;
+  flag: string;
+};
+
+export const serviceAreas: ServiceArea[] = [
+  { country: "London, UK", detail: "United Kingdom", flag: "🇬🇧" },
+  { country: "Dubai, UAE", detail: "United Arab Emirates", flag: "🇦🇪" },
+  { country: "Saudi Arabia", detail: "Riyadh · Jeddah · Dammam", flag: "🇸🇦" },
+  { country: "Pakistan", detail: "Bhakkar · Gujjar Khan & more", flag: "🇵🇰" },
+];
+
+export type SocialLink = {
+  name: string;
+  href: string;
+  icon: string;
+};
+
+export const socialLinks: SocialLink[] = [
+  { name: "TikTok", href: "http://tiktok.com/@zubaidadigitalmarketing", icon: "tiktok" },
+  { name: "Pinterest", href: "https://www.pinterest.com/zubaidaambreen1/", icon: "pinterest" },
+  { name: "YouTube", href: "https://youtube.com/@zubaidaambreen4751", icon: "youtube" },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=61592229470151",
+    icon: "facebook",
+  },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/zubaidadigitalmarketing",
+    icon: "instagram",
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/zubaida-digital-marketing-specialist-agency-4580bb423",
+    icon: "linkedin",
+  },
+];
+
+export const navLinks = [
+  { label: "Services", href: "#services" },
+  { label: "About", href: "#about" },
+  { label: "Locations", href: "#locations" },
+  { label: "Contact", href: "#contact" },
+];
