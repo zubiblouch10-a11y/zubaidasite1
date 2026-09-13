@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CheckIcon } from "./Icons";
 import { site } from "@/lib/site";
 import Reveal from "./Reveal";
@@ -84,9 +85,23 @@ export default function About() {
                   customers to find, trust, and choose your business — on
                   Google Maps, on search, and across social media.&rdquo;
                 </p>
-                <p className="mt-3 text-xs font-semibold text-text">
-                  — Zubaida, Founder &amp; Digital Marketing Specialist
-                </p>
+                <div className="mt-4 flex items-center gap-3">
+                  <span className="relative flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-neon-blue)] to-[var(--color-neon-purple)] p-[1.5px]">
+                    <Image
+                      src="/founder.jpg"
+                      alt="Zubaida — Founder, Zubaida Digital"
+                      width={44}
+                      height={44}
+                      className="h-full w-full rounded-full object-cover"
+                    />
+                  </span>
+                  <p className="text-xs font-semibold text-text">
+                    Zubaida
+                    <span className="block font-normal text-text-muted">
+                      Founder &amp; Digital Marketing Specialist
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
           </Reveal>

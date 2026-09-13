@@ -113,7 +113,42 @@ export const socialLinks: SocialLink[] = [
 
 export const navLinks = [
   { label: "Services", href: "#services" },
+  { label: "Our Work", href: "#work" },
   { label: "About", href: "#about" },
   { label: "Locations", href: "#locations" },
   { label: "Contact", href: "#contact" },
+];
+
+export type WorkItem = {
+  id: string;
+  title: string;
+  category: string;
+  image: string;
+};
+
+export const workItems: WorkItem[] = [
+  {
+    id: "social-media-marketing",
+    title: "Social Media Marketing Campaign",
+    category: "Social Media",
+    image: "/work/social-media-marketing.jpg",
+  },
+  {
+    id: "local-seo-expert-poster",
+    title: "Local SEO Expert Brand Poster",
+    category: "Branding",
+    image: "/work/local-seo-expert-poster.jpg",
+  },
+  {
+    id: "seo-specialist-agency-poster",
+    title: "SEO Specialist Agency Poster",
+    category: "Branding",
+    image: "/work/seo-specialist-agency-poster.jpg",
+  },
+  {
+    id: "local-seo-services",
+    title: "Local SEO Services Flyer",
+    category: "Local SEO",
+    image: "/work/local-seo-services.jpg",
+  },
 ];
