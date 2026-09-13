@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
+import SiteBackground from "@/components/SiteBackground";
 import "./globals.css";
 
 const bodyFont = Inter({
@@ -45,6 +46,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`dark ${bodyFont.variable} ${displayFont.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-bg text-text selection:bg-[var(--color-neon-purple)]">
+        <SiteBackground />
         {children}
       </body>
     </html>

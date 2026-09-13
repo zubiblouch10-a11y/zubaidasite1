@@ -15,7 +15,7 @@ export default function Hero() {
       id="home"
       className="relative overflow-hidden pt-32 pb-20 sm:pt-40 sm:pb-28"
     >
-      <div className="absolute inset-0 -z-20 bg-bg" />
+      <div className="absolute inset-0 -z-20 bg-bg/55" />
       <div className="bg-grid absolute inset-0 -z-10 opacity-40 [mask-image:radial-gradient(ellipse_60%_60%_at_50%_0%,#000_10%,transparent_75%)]" />
       <div className="animate-pulse-glow absolute -top-20 left-1/4 -z-10 h-72 w-72 rounded-full bg-[var(--color-neon-blue)] opacity-20 blur-[100px]" />
       <div
