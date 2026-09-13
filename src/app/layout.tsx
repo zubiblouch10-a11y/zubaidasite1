@@ -12,7 +12,12 @@ const displayFont = Space_Grotesk({
   subsets: ["latin"],
 });
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Zubaida Digital | Premium Digital Marketing & Local SEO Agency",
   description:
     "Zubaida Digital helps businesses dominate Google Local Search with Google Business Profile optimization, Local SEO, social media marketing, and e-commerce growth across the UK, UAE, Saudi Arabia, and Pakistan.",
@@ -29,6 +34,7 @@ export const metadata: Metadata = {
     description:
       "Scale your business and dominate Google Local Search. GMB optimization, Local SEO, social media marketing & more.",
     type: "website",
+    images: ["/logo.png"],
   },
 };
 

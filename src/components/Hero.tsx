@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ArrowRightIcon, CheckIcon, WhatsAppIcon } from "./Icons";
 import { site, waLink } from "@/lib/site";
 import Reveal from "./Reveal";
@@ -93,8 +94,14 @@ export default function Hero() {
                   </p>
                   <p className="font-display text-lg font-bold">Zubaida Digital</p>
                 </div>
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-[var(--color-neon-blue)] to-[var(--color-neon-purple)] font-display text-lg font-bold text-white">
-                  Z
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-neon-blue)] to-[var(--color-neon-purple)] p-[1.5px]">
+                  <Image
+                    src="/logo.png"
+                    alt="Zubaida Digital"
+                    width={44}
+                    height={44}
+                    className="h-full w-full rounded-full object-cover"
+                  />
                 </div>
               </div>
 

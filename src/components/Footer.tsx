@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { navLinks, serviceAreas, site, socialLinks, waLink } from "@/lib/site";
 import { SocialIcon, WhatsAppIcon } from "./Icons";
 
@@ -8,8 +9,14 @@ export default function Footer() {
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <a href="#home" className="flex items-center gap-2.5">
-              <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-[var(--color-neon-blue)] to-[var(--color-neon-purple)] font-display text-base font-bold text-white">
-                Z
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-neon-blue)] to-[var(--color-neon-purple)] p-[1.5px]">
+                <Image
+                  src="/logo.png"
+                  alt="Zubaida Digital"
+                  width={36}
+                  height={36}
+                  className="h-full w-full rounded-full object-cover"
+                />
               </span>
               <span className="font-display text-lg font-bold tracking-tight">
                 Zubaida <span className="text-gradient">Digital</span>

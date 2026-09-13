@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { navLinks, site, waLink } from "@/lib/site";
 import { CloseIcon, MenuIcon, WhatsAppIcon } from "./Icons";
@@ -31,8 +32,15 @@ export default function Header() {
           }`}
         >
           <a href="#home" className="group flex items-center gap-2.5">
-            <span className="relative flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-[var(--color-neon-blue)] to-[var(--color-neon-purple)] font-display text-base font-bold text-white shadow-[0_0_18px_-2px_var(--color-neon-blue)] transition group-hover:shadow-[0_0_26px_0px_var(--color-neon-purple)]">
-              Z
+            <span className="relative flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-neon-blue)] to-[var(--color-neon-purple)] p-[1.5px] shadow-[0_0_18px_-2px_var(--color-neon-blue)] transition group-hover:shadow-[0_0_26px_0px_var(--color-neon-purple)]">
+              <Image
+                src="/logo.png"
+                alt="Zubaida Digital"
+                width={36}
+                height={36}
+                className="h-full w-full rounded-full object-cover"
+                priority
+              />
             </span>
             <span className="font-display text-lg font-bold tracking-tight">
               Zubaida <span className="text-gradient">Digital</span>
