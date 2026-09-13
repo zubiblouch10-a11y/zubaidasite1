@@ -3,6 +3,8 @@ export const site = {
   tagline: "Digital Marketing Specialist & Local SEO Agency",
   phoneDisplay: "0313 0071224",
   phoneHref: "tel:+923130071224",
+  phoneDisplay2: "0370 1167119",
+  phoneHref2: "tel:+923701167119",
   whatsappNumber: "923130071224",
   openingDate: "December 12, 2025",
 };

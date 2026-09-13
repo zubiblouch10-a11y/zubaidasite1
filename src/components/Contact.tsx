@@ -44,18 +44,23 @@ export default function Contact() {
             </p>
 
             <div className="mt-8 flex flex-col gap-4">
-              <a
-                href={site.phoneHref}
-                className="glass flex items-center gap-4 rounded-2xl p-4 transition hover:border-[var(--color-neon-blue)]"
-              >
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-[var(--color-neon-blue)]/15 text-[var(--color-neon-blue)]">
+              <div className="glass flex items-center gap-4 rounded-2xl p-4">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[var(--color-neon-blue)]/15 text-[var(--color-neon-blue)]">
                   <WhatsAppIcon className="h-5 w-5" />
                 </span>
                 <div>
                   <p className="text-xs text-text-muted">Call / WhatsApp</p>
-                  <p className="text-sm font-semibold text-text">{site.phoneDisplay}</p>
+                  <p className="text-sm font-semibold text-text">
+                    <a href={site.phoneHref} className="transition hover:text-[var(--color-neon-blue)]">
+                      {site.phoneDisplay}
+                    </a>
+                    <span className="text-text-muted"> / </span>
+                    <a href={site.phoneHref2} className="transition hover:text-[var(--color-neon-blue)]">
+                      {site.phoneDisplay2}
+                    </a>
+                  </p>
                 </div>
-              </a>
+              </div>
 
               <div className="glass rounded-2xl p-4">
                 <p className="text-xs text-text-muted">Service Areas</p>

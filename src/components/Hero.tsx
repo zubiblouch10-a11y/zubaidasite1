@@ -73,13 +73,20 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="mt-8 flex items-center gap-4 text-sm text-text-muted">
+          <div className="mt-8 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-text-muted">
             <span>Call or WhatsApp:</span>
             <a
               href={site.phoneHref}
               className="font-semibold text-text transition hover:text-[var(--color-neon-blue)]"
             >
               {site.phoneDisplay}
+            </a>
+            <span className="text-text-muted">/</span>
+            <a
+              href={site.phoneHref2}
+              className="font-semibold text-text transition hover:text-[var(--color-neon-blue)]"
+            >
+              {site.phoneDisplay2}
             </a>
           </div>
         </Reveal>

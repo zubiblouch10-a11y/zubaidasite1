@@ -79,6 +79,12 @@ export default function Footer() {
                 {site.phoneDisplay}
               </a>
               <a
+                href={site.phoneHref2}
+                className="text-sm text-text-muted transition hover:text-[var(--color-neon-blue)]"
+              >
+                {site.phoneDisplay2}
+              </a>
+              <a
                 href={waLink(`Hi ${site.name}, I'd like to start a project.`)}
                 target="_blank"
                 rel="noopener noreferrer"
