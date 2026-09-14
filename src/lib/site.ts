@@ -1,12 +1,24 @@
+export const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "https://zubaidasite1.vercel.app");
+
 export const site = {
   name: "Zubaida Digital",
+  legalName: "Zubaida Digital Marketing",
   tagline: "Digital Marketing Specialist & Local SEO Agency",
+  description:
+    "Zubaida Digital helps businesses dominate Google Local Search with Google Business Profile optimization, Local SEO, social media marketing, and e-commerce growth across the UK, UAE, Saudi Arabia, and Pakistan.",
+  url: siteUrl,
+  logo: `${siteUrl}/logo.png`,
   phoneDisplay: "0313 0071224",
   phoneHref: "tel:+923130071224",
   phoneDisplay2: "0370 1167119",
   phoneHref2: "tel:+923701167119",
   whatsappNumber: "923130071224",
   openingDate: "December 12, 2025",
+  foundingDate: "2025-12-12",
 };
 
 export function waLink(message?: string) {

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import SiteBackground from "@/components/SiteBackground";
+import StructuredData from "@/components/StructuredData";
+import { site, siteUrl } from "@/lib/site";
 import "./globals.css";
 
 const bodyFont = Inter({
@@ -13,15 +15,16 @@ const displayFont = Space_Grotesk({
   subsets: ["latin"],
 });
 
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+const title = "Zubaida Digital | Premium Digital Marketing & Local SEO Agency";
+const description = site.description;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Zubaida Digital | Premium Digital Marketing & Local SEO Agency",
-  description:
-    "Zubaida Digital helps businesses dominate Google Local Search with Google Business Profile optimization, Local SEO, social media marketing, and e-commerce growth across the UK, UAE, Saudi Arabia, and Pakistan.",
+  title: {
+    default: title,
+    template: `%s | ${site.name}`,
+  },
+  description,
   keywords: [
     "Zubaida Digital",
     "Local SEO Agency",
@@ -29,12 +32,50 @@ export const metadata: Metadata = {
     "Digital Marketing Specialist",
     "Social Media Marketing",
     "GMB Ranking",
+    "Local SEO London",
+    "Local SEO Dubai",
+    "Local SEO Saudi Arabia",
+    "Local SEO Pakistan",
   ],
+  authors: [{ name: site.name, url: siteUrl }],
+  creator: site.name,
+  publisher: site.name,
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   openGraph: {
-    title: "Zubaida Digital | Premium Digital Marketing & Local SEO Agency",
+    title,
     description:
       "Scale your business and dominate Google Local Search. GMB optimization, Local SEO, social media marketing & more.",
     type: "website",
+    url: siteUrl,
+    siteName: site.name,
+    locale: "en_US",
+    images: [
+      {
+        url: "/logo.png",
+        width: 512,
+        height: 512,
+        alt: site.name,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description:
+      "Scale your business and dominate Google Local Search. GMB optimization, Local SEO, social media marketing & more.",
     images: ["/logo.png"],
   },
   verification: {
@@ -49,6 +90,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`dark ${bodyFont.variable} ${displayFont.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-bg text-text selection:bg-[var(--color-neon-purple)]">
+        <StructuredData />
         <SiteBackground />
         {children}
       </body>
