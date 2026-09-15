@@ -145,7 +145,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="btn-glow flex items-center justify-center gap-2 rounded-full bg-[var(--color-neon-green)] px-6 py-3.5 text-sm font-semibold text-white transition hover:brightness-110"
+                  className="btn-glow flex items-center justify-center gap-2 rounded-full bg-[var(--color-whatsapp-btn)] px-6 py-3.5 text-sm font-semibold text-white transition hover:brightness-110"
                 >
                   <WhatsAppIcon className="h-5 w-5" />
                   Send via WhatsApp

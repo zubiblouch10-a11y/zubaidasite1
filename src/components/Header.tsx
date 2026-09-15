@@ -65,7 +65,7 @@ export default function Header() {
               href={waLink(`Hi ${site.name}, I'd like to start a project.`)}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-full bg-[var(--color-neon-green)] px-4 py-2 text-sm font-semibold text-white shadow-[0_0_18px_-4px_var(--color-neon-green)] transition hover:brightness-110"
+              className="flex items-center gap-2 rounded-full bg-[var(--color-whatsapp-btn)] px-4 py-2 text-sm font-semibold text-white shadow-[0_0_18px_-4px_var(--color-neon-green)] transition hover:brightness-110"
             >
               <WhatsAppIcon className="h-4 w-4" />
               WhatsApp Us
@@ -102,7 +102,7 @@ export default function Header() {
                 href={waLink(`Hi ${site.name}, I'd like to start a project.`)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-1 items-center justify-center gap-2 rounded-full bg-[var(--color-neon-green)] px-4 py-2.5 text-sm font-semibold text-white"
+                className="flex flex-1 items-center justify-center gap-2 rounded-full bg-[var(--color-whatsapp-btn)] px-4 py-2.5 text-sm font-semibold text-white"
               >
                 <WhatsAppIcon className="h-4 w-4" />
                 WhatsApp Us

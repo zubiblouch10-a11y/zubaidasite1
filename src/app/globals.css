@@ -13,6 +13,7 @@
   --color-neon-blue: #3b82f6;
   --color-neon-purple: #8b5cf6;
   --color-neon-green: #25d366;
+  --color-whatsapp-btn: #188741;
 }
 
 .dark {
@@ -152,14 +153,6 @@ body {
 .animate-wa-ping {
   animation: wa-ping 2.4s ease-out infinite;
   background: var(--color-neon-green);
-}
-
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-.animate-marquee {
-  animation: marquee 22s linear infinite;
 }
 
 @keyframes grid-pan {

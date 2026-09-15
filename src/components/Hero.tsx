@@ -59,7 +59,7 @@ export default function Hero() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-glow group flex items-center justify-center gap-2 rounded-full bg-[var(--color-neon-green)] px-6 py-3.5 text-sm font-semibold text-white transition hover:brightness-110 sm:text-base"
+              className="btn-glow group flex items-center justify-center gap-2 rounded-full bg-[var(--color-whatsapp-btn)] px-6 py-3.5 text-sm font-semibold text-white transition hover:brightness-110 sm:text-base"
             >
               <WhatsAppIcon className="h-5 w-5" />
               Start Your Project on WhatsApp

@@ -88,7 +88,7 @@ export default function Footer() {
                 href={waLink(`Hi ${site.name}, I'd like to start a project.`)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex w-fit items-center gap-2 rounded-full bg-[var(--color-neon-green)] px-4 py-2 text-xs font-semibold text-white transition hover:brightness-110"
+                className="inline-flex w-fit items-center gap-2 rounded-full bg-[var(--color-whatsapp-btn)] px-4 py-2 text-xs font-semibold text-white transition hover:brightness-110"
               >
                 <WhatsAppIcon className="h-3.5 w-3.5" />
                 Chat on WhatsApp
