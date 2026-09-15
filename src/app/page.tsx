@@ -1,5 +1,5 @@
+import dynamic from "next/dynamic";
 import About from "@/components/About";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -7,6 +7,8 @@ import Locations from "@/components/Locations";
 import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+
+const Contact = dynamic(() => import("@/components/Contact"));
 
 export default function Home() {
   return (
