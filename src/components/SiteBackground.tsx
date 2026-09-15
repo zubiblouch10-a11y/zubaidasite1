@@ -7,7 +7,8 @@ export default function SiteBackground() {
         src="/founder.jpg"
         alt=""
         fill
-        priority
+        quality={40}
+        sizes="100vw"
         className="scale-110 object-cover object-[78%_18%] opacity-0 blur-md saturate-[1.1] dark:opacity-[0.55]"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-bg via-bg/70 to-bg/30" />

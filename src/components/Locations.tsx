@@ -21,8 +21,8 @@ export default function Locations() {
           </p>
         </Reveal>
 
-        <div className="relative mt-16 rounded-3xl border border-border bg-white/[0.02] p-6 sm:p-10">
-          <div className="bg-grid pointer-events-none absolute inset-0 rounded-3xl opacity-30 [mask-image:radial-gradient(ellipse_70%_70%_at_50%_50%,#000_20%,transparent_80%)]" />
+        <div className="relative mt-16 overflow-hidden rounded-3xl border border-border bg-white/[0.02] p-6 sm:p-10">
+          <div className="bg-grid pointer-events-none absolute -inset-[60px] opacity-30 [mask-image:radial-gradient(ellipse_70%_70%_at_50%_50%,#000_20%,transparent_80%)]" />
 
           <div className="relative grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {serviceAreas.map((area, i) => (
