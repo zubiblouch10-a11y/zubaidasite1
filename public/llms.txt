@@ -22,3 +22,7 @@ Zubaida Digital serves clients across London (United Kingdom), Dubai (United Ara
 ## Pages
 
 - [Homepage](https://zubaidasite1.vercel.app/): Services, portfolio, about, service locations, and contact/WhatsApp inquiry form.
+- [Local SEO in London, UK](https://zubaidasite1.vercel.app/local-seo-london)
+- [Local SEO in Dubai, UAE](https://zubaidasite1.vercel.app/local-seo-dubai)
+- [Local SEO in Saudi Arabia (Riyadh, Jeddah, Dammam)](https://zubaidasite1.vercel.app/local-seo-saudi-arabia)
+- [Local SEO in Pakistan (Bhakkar, Gujjar Khan & more)](https://zubaidasite1.vercel.app/local-seo-pakistan)

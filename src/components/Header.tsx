@@ -31,7 +31,7 @@ export default function Header() {
             scrolled ? "shadow-[0_8px_30px_rgba(0,0,0,0.25)]" : ""
           }`}
         >
-          <a href="#home" className="group flex items-center gap-2.5">
+          <a href="/" className="group flex items-center gap-2.5">
             <span className="relative flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-neon-blue)] to-[var(--color-neon-purple)] p-[1.5px] shadow-[0_0_18px_-2px_var(--color-neon-blue)] transition group-hover:shadow-[0_0_26px_0px_var(--color-neon-purple)]">
               <Image
                 src="/logo.png"

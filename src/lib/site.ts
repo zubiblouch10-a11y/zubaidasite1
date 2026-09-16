@@ -89,13 +89,14 @@ export type ServiceArea = {
   country: string;
   detail: string;
   flag: string;
+  slug: string;
 };
 
 export const serviceAreas: ServiceArea[] = [
-  { country: "London, UK", detail: "United Kingdom", flag: "🇬🇧" },
-  { country: "Dubai, UAE", detail: "United Arab Emirates", flag: "🇦🇪" },
-  { country: "Saudi Arabia", detail: "Riyadh · Jeddah · Dammam", flag: "🇸🇦" },
-  { country: "Pakistan", detail: "Bhakkar · Gujjar Khan & more", flag: "🇵🇰" },
+  { country: "London, UK", detail: "United Kingdom", flag: "🇬🇧", slug: "local-seo-london" },
+  { country: "Dubai, UAE", detail: "United Arab Emirates", flag: "🇦🇪", slug: "local-seo-dubai" },
+  { country: "Saudi Arabia", detail: "Riyadh · Jeddah · Dammam", flag: "🇸🇦", slug: "local-seo-saudi-arabia" },
+  { country: "Pakistan", detail: "Bhakkar · Gujjar Khan & more", flag: "🇵🇰", slug: "local-seo-pakistan" },
 ];
 
 export type SocialLink = {
@@ -126,11 +127,11 @@ export const socialLinks: SocialLink[] = [
 ];
 
 export const navLinks = [
-  { label: "Services", href: "#services" },
-  { label: "Our Work", href: "#work" },
-  { label: "About", href: "#about" },
-  { label: "Locations", href: "#locations" },
-  { label: "Contact", href: "#contact" },
+  { label: "Services", href: "/#services" },
+  { label: "Our Work", href: "/#work" },
+  { label: "About", href: "/#about" },
+  { label: "Locations", href: "/#locations" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export type WorkItem = {

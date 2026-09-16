@@ -27,7 +27,10 @@ export default function Locations() {
           <div className="relative grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {serviceAreas.map((area, i) => (
               <Reveal key={area.country} delay={i * 100}>
-                <div className="glass glow-border group flex flex-col items-center gap-3 rounded-2xl px-5 py-8 text-center transition-transform duration-300 hover:-translate-y-1.5">
+                <a
+                  href={`/${area.slug}`}
+                  className="glass glow-border group flex flex-col items-center gap-3 rounded-2xl px-5 py-8 text-center transition-transform duration-300 hover:-translate-y-1.5"
+                >
                   <span className="text-4xl transition-transform duration-300 group-hover:scale-110">
                     {area.flag}
                   </span>
@@ -37,7 +40,7 @@ export default function Locations() {
                     <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-neon-green)]" />
                     Active Service Area
                   </span>
-                </div>
+                </a>
               </Reveal>
             ))}
           </div>

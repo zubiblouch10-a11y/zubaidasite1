@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <a href="#home" className="flex items-center gap-2.5">
+            <a href="/" className="flex items-center gap-2.5">
               <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-neon-blue)] to-[var(--color-neon-purple)] p-[1.5px]">
                 <Image
                   src="/logo.png"
@@ -62,8 +62,13 @@ export default function Footer() {
             <p className="text-sm font-semibold text-text">Service Areas</p>
             <ul className="mt-4 flex flex-col gap-2.5">
               {serviceAreas.map((area) => (
-                <li key={area.country} className="text-sm text-text-muted">
-                  {area.flag} {area.country}
+                <li key={area.country}>
+                  <a
+                    href={`/${area.slug}`}
+                    className="text-sm text-text-muted transition hover:text-[var(--color-neon-blue)]"
+                  >
+                    {area.flag} {area.country}
+                  </a>
                 </li>
               ))}
             </ul>
