@@ -24,7 +24,10 @@ export default function Services() {
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, i) => (
             <Reveal key={service.id} delay={i * 80}>
-              <div className="glass glow-border group relative h-full overflow-hidden rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_50px_-20px_rgba(139,92,246,0.4)]">
+              <a
+                href={`/${service.slug}`}
+                className="glass glow-border group relative flex h-full flex-col overflow-hidden rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_50px_-20px_rgba(139,92,246,0.4)]"
+              >
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-[var(--color-neon-blue)]/20 to-[var(--color-neon-purple)]/20 text-[var(--color-neon-blue)] transition-transform duration-300 group-hover:scale-110 group-hover:text-[var(--color-neon-purple)]">
                   <ServiceIcon name={service.icon} className="h-6 w-6" />
                 </div>
@@ -38,7 +41,7 @@ export default function Services() {
                   <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-neon-green)]" />
                   {service.metric}
                 </div>
-              </div>
+              </a>
             </Reveal>
           ))}
         </div>

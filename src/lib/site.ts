@@ -28,6 +28,7 @@ export function waLink(message?: string) {
 
 export type Service = {
   id: string;
+  slug: string;
   title: string;
   description: string;
   metric: string;
@@ -37,6 +38,7 @@ export type Service = {
 export const services: Service[] = [
   {
     id: "gmb",
+    slug: "google-business-profile-optimization",
     title: "Google Business Profile (GMB) Optimization",
     description:
       "Rank in the Google Maps 3-pack and dominate local search results so nearby customers find and call you first.",
@@ -45,6 +47,7 @@ export const services: Service[] = [
   },
   {
     id: "local-seo",
+    slug: "local-seo-services",
     title: "Local SEO & Search Engine Optimization",
     description:
       "On-page, off-page and technical SEO built to push your website up Google's rankings for the keywords that convert.",
@@ -53,6 +56,7 @@ export const services: Service[] = [
   },
   {
     id: "social",
+    slug: "social-media-marketing",
     title: "Social Media Marketing",
     description:
       "Strategy, content and ads across Meta, TikTok, Pinterest and YouTube to build an audience that actually buys.",
@@ -61,6 +65,7 @@ export const services: Service[] = [
   },
   {
     id: "ecommerce",
+    slug: "ecommerce-marketing",
     title: "E-commerce Marketing & Growth",
     description:
       "Full-funnel campaigns and storefront optimization that turn browsers into repeat customers and higher AOV.",
@@ -69,6 +74,7 @@ export const services: Service[] = [
   },
   {
     id: "content-reputation",
+    slug: "content-marketing-reputation-management",
     title: "Content Marketing & Online Reputation Management",
     description:
       "Consistent, on-brand content plus review and reputation management that keeps your business trusted online.",
@@ -77,6 +83,7 @@ export const services: Service[] = [
   },
   {
     id: "strategy",
+    slug: "business-growth-strategy",
     title: "Business Development & Strategy",
     description:
       "Data-driven growth strategy and lead generation systems tailored to your market and business goals.",
