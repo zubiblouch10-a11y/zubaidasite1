@@ -139,6 +139,7 @@ export const navLinks = [
   { label: "About", href: "/#about" },
   { label: "Locations", href: "/#locations" },
   { label: "Contact", href: "/#contact" },
+  { label: "Book a Call", href: "/booking" },
 ];
 
 export type WorkItem = {
