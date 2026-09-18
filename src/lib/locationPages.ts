@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogImage, site } from "@/lib/site";
 
 export type LocationPage = {
   slug: string;
@@ -103,20 +104,15 @@ export function locationMetadata(location: LocationPage): Metadata {
       description: location.metaDescription,
       type: "website",
       url: `/${location.slug}`,
-      images: [
-        {
-          url: "/logo.png",
-          width: 512,
-          height: 512,
-          alt: location.metaTitle,
-        },
-      ],
+      siteName: site.name,
+      locale: "en_US",
+      images: [ogImage],
     },
     twitter: {
       card: "summary_large_image",
       title: location.metaTitle,
       description: location.metaDescription,
-      images: ["/logo.png"],
+      images: [ogImage.url],
     },
   };
 }

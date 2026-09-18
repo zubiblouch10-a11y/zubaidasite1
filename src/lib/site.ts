@@ -4,6 +4,16 @@ export const siteUrl =
     ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
     : "https://zubaidasite1.vercel.app");
 
+// Bump when page content changes so the sitemap <lastmod> stays truthful.
+export const contentLastModified = new Date("2026-09-18");
+
+export const ogImage = {
+  url: "/opengraph-image",
+  width: 1200,
+  height: 630,
+  alt: "Zubaida Digital — Digital Marketing & Local SEO Agency",
+};
+
 export const site = {
   name: "Zubaida Digital",
   legalName: "Zubaida Digital Marketing",

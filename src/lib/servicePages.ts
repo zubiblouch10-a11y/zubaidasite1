@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogImage, site } from "@/lib/site";
 
 export type ServicePageData = {
   slug: string;
@@ -132,20 +133,15 @@ export function servicePageMetadata(service: ServicePageData): Metadata {
       description: service.metaDescription,
       type: "website",
       url: `/${service.slug}`,
-      images: [
-        {
-          url: "/logo.png",
-          width: 512,
-          height: 512,
-          alt: service.metaTitle,
-        },
-      ],
+      siteName: site.name,
+      locale: "en_US",
+      images: [ogImage],
     },
     twitter: {
       card: "summary_large_image",
       title: service.metaTitle,
       description: service.metaDescription,
-      images: ["/logo.png"],
+      images: [ogImage.url],
     },
   };
 }

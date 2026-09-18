@@ -27,6 +27,7 @@ export default function StructuredData() {
             "@type": "Service",
             name: service.title,
             description: service.description,
+            url: `${site.url}/${service.slug}`,
           },
         })),
       },

@@ -3,13 +3,22 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Reveal from "@/components/Reveal";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
-import { site } from "@/lib/site";
+import { ogImage, site } from "@/lib/site";
 import BookingForm from "./BookingForm";
 
 export const metadata: Metadata = {
   title: "Book a Free Consultation",
   description: `Book a free consultation call with ${site.name}. Pick a date and time that works for you and we'll confirm your slot.`,
   alternates: { canonical: "/booking" },
+  openGraph: {
+    title: "Book a Free Consultation",
+    description: `Book a free consultation call with ${site.name}.`,
+    type: "website",
+    url: "/booking",
+    siteName: site.name,
+    locale: "en_US",
+    images: [ogImage],
+  },
 };
 
 export default function BookingPage() {

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import SiteBackground from "@/components/SiteBackground";
 import StructuredData from "@/components/StructuredData";
-import { site, siteUrl } from "@/lib/site";
+import { ogImage, site, siteUrl } from "@/lib/site";
 import "./globals.css";
 
 const bodyFont = Inter({
@@ -62,21 +62,14 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: site.name,
     locale: "en_US",
-    images: [
-      {
-        url: "/logo.png",
-        width: 512,
-        height: 512,
-        alt: site.name,
-      },
-    ],
+    images: [ogImage],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description:
       "Scale your business and dominate Google Local Search. GMB optimization, Local SEO, social media marketing & more.",
-    images: ["/logo.png"],
+    images: [ogImage.url],
   },
   verification: {
     google: "7EVrMWMqBaFfn4RKKXfbJAXfTYtKsydFQ2HgydUQlQ0",

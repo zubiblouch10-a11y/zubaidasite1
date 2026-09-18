@@ -26,3 +26,13 @@ Zubaida Digital serves clients across London (United Kingdom), Dubai (United Ara
 - [Local SEO in Dubai, UAE](https://zubaidasite1.vercel.app/local-seo-dubai)
 - [Local SEO in Saudi Arabia (Riyadh, Jeddah, Dammam)](https://zubaidasite1.vercel.app/local-seo-saudi-arabia)
 - [Local SEO in Pakistan (Bhakkar, Gujjar Khan & more)](https://zubaidasite1.vercel.app/local-seo-pakistan)
+- [Book a Free Consultation](https://zubaidasite1.vercel.app/booking)
+
+## Service pages
+
+- [Google Business Profile (GMB) Optimization](https://zubaidasite1.vercel.app/google-business-profile-optimization)
+- [Local SEO & Search Engine Optimization](https://zubaidasite1.vercel.app/local-seo-services)
+- [Social Media Marketing](https://zubaidasite1.vercel.app/social-media-marketing)
+- [E-commerce Marketing & Growth](https://zubaidasite1.vercel.app/ecommerce-marketing)
+- [Content Marketing & Online Reputation Management](https://zubaidasite1.vercel.app/content-marketing-reputation-management)
+- [Business Development & Strategy](https://zubaidasite1.vercel.app/business-growth-strategy)

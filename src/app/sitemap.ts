@@ -1,15 +1,15 @@
 import type { MetadataRoute } from "next";
 import { locationPages } from "@/lib/locationPages";
 import { servicePages } from "@/lib/servicePages";
-import { siteUrl } from "@/lib/site";
+import { contentLastModified, siteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  const lastModified = contentLastModified;
 
   return [
     {
       url: siteUrl,
-      lastModified: now,
+      lastModified,
       changeFrequency: "weekly",
       priority: 1,
       images: [
@@ -21,19 +21,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
         `${siteUrl}/work/social-media-marketing.jpg`,
       ],
     },
-    ...locationPages.map((location) => ({
-      url: `${siteUrl}/${location.slug}`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.8,
-      images: [`${siteUrl}/logo.png`],
-    })),
     ...servicePages.map((service) => ({
       url: `${siteUrl}/${service.slug}`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.8,
-      images: [`${siteUrl}/logo.png`],
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
     })),
+    ...locationPages.map((location) => ({
+      url: `${siteUrl}/${location.slug}`,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    {
+      url: `${siteUrl}/booking`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.6,
+    },
   ];
 }
