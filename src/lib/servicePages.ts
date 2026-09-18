@@ -19,7 +19,7 @@ export const servicePages: ServicePageData[] = [
     title: "Google Business Profile (GMB) Optimization",
     metaTitle: "Google Business Profile Optimization Services | Zubaida Digital",
     metaDescription:
-      "Rank in the Google Maps 3-pack with expert Google Business Profile optimization. Zubaida Digital sets up, verifies, and optimizes your GMB listing to bring in local customers.",
+      "Rank in the Google Maps 3-pack with expert Google Business Profile optimization. We set up, verify and optimize your GMB listing for local customers.",
     h1: "Google Business Profile Optimization",
     intro:
       "Your Google Business Profile is often the first thing a potential customer sees before they ever visit your website. Zubaida Digital sets up, verifies, and fully optimizes your listing — categories, services, photos, posts, and Q&A — so you rank higher in the Google Maps 3-pack and turn nearby searches into calls, visits, and bookings.",
@@ -36,7 +36,7 @@ export const servicePages: ServicePageData[] = [
     title: "Local SEO & Search Engine Optimization",
     metaTitle: "Local SEO Services | On-Page, Off-Page & Technical SEO | Zubaida Digital",
     metaDescription:
-      "Get found by nearby customers with expert local SEO. Zubaida Digital handles on-page, off-page, and technical SEO to push your website up Google's local rankings.",
+      "Get found by nearby customers with expert local SEO. On-page, off-page and technical SEO to push your website up Google's local rankings.",
     h1: "Local SEO & Search Engine Optimization",
     intro:
       "Ranking on page one of Google takes more than a website — it takes a deliberate local SEO strategy. Zubaida Digital combines on-page optimization, technical SEO fixes, citation building, and local content to push your business up the rankings for the exact keywords your customers are searching for.",
@@ -53,7 +53,7 @@ export const servicePages: ServicePageData[] = [
     title: "Social Media Marketing",
     metaTitle: "Social Media Marketing Services | Meta, TikTok, Pinterest & YouTube | Zubaida Digital",
     metaDescription:
-      "Grow an audience that actually buys. Zubaida Digital plans, creates, and runs social media strategy, content, and ads across Meta, TikTok, Pinterest, and YouTube.",
+      "Grow an audience that buys. Zubaida Digital runs social media strategy, content and ads across Meta, TikTok, Pinterest and YouTube.",
     h1: "Social Media Marketing",
     intro:
       "Posting content isn't a strategy — building an audience that converts is. Zubaida Digital plans and executes social media marketing across Meta, TikTok, Pinterest, and YouTube, combining organic content with targeted ads to grow real engagement and turn followers into paying customers.",
@@ -70,7 +70,7 @@ export const servicePages: ServicePageData[] = [
     title: "E-commerce Marketing & Growth",
     metaTitle: "E-commerce Marketing Services | More Sales, Lower CAC | Zubaida Digital",
     metaDescription:
-      "Turn browsers into repeat customers. Zubaida Digital runs full-funnel e-commerce marketing and storefront optimization to grow sales and lower your customer acquisition cost.",
+      "Turn browsers into repeat customers. Full-funnel e-commerce marketing and storefront optimization to grow sales and lower your acquisition cost.",
     h1: "E-commerce Marketing & Growth",
     intro:
       "Traffic without conversions doesn't grow a store. Zubaida Digital builds full-funnel e-commerce campaigns — from storefront optimization to retargeting — that turn first-time browsers into repeat customers and increase your average order value while keeping acquisition costs down.",
@@ -87,7 +87,7 @@ export const servicePages: ServicePageData[] = [
     title: "Content Marketing & Online Reputation Management",
     metaTitle: "Content Marketing & Online Reputation Management | Zubaida Digital",
     metaDescription:
-      "Build trust online with consistent content and proactive review management. Zubaida Digital handles content marketing and reputation management that keeps your business trusted.",
+      "Build trust online with consistent content and proactive review management from Zubaida Digital, so your business stays the trusted choice.",
     h1: "Content Marketing & Online Reputation Management",
     intro:
       "Customers check your reviews and content before they check your prices. Zubaida Digital keeps your brand consistent and on-message across every channel, while actively managing reviews and reputation so your business shows up as the trusted choice, not just another search result.",
@@ -104,7 +104,7 @@ export const servicePages: ServicePageData[] = [
     title: "Business Development & Strategy",
     metaTitle: "Business Growth Strategy & Lead Generation Services | Zubaida Digital",
     metaDescription:
-      "Scalable, data-driven growth strategy and lead generation systems tailored to your market. Zubaida Digital plans the roadmap that turns marketing spend into business growth.",
+      "Scalable, data-driven growth strategy and lead generation systems tailored to your market, planned by Zubaida Digital.",
     h1: "Business Development & Strategy",
     intro:
       "Marketing without a strategy is just spend. Zubaida Digital builds data-driven growth plans and lead generation systems tailored to your market, so every channel — local SEO, social, ads, and content — works together toward one goal: scalable, measurable business growth.",

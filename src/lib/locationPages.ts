@@ -21,7 +21,7 @@ export const locationPages: LocationPage[] = [
     region: "London, United Kingdom",
     metaTitle: "Local SEO Services in London, UK | Zubaida Digital",
     metaDescription:
-      "Rank higher in Google Maps and local search across London. Google Business Profile optimization, local SEO, and lead generation for UK businesses by Zubaida Digital.",
+      "Rank higher in Google Maps and local search across London. Google Business Profile optimization and local SEO for UK businesses by Zubaida Digital.",
     h1: "Local SEO Services in London, United Kingdom",
     intro:
       "London is one of the most competitive local markets in the world, with thousands of businesses fighting for the same Google Maps 3-pack spots. Zubaida Digital helps London-based businesses — from local shops and clinics to service providers — optimize their Google Business Profile, build authentic local SEO signals, and turn nearby searches into paying customers.",
@@ -39,7 +39,7 @@ export const locationPages: LocationPage[] = [
     region: "Dubai, United Arab Emirates",
     metaTitle: "Local SEO & Google Business Profile Services in Dubai, UAE | Zubaida Digital",
     metaDescription:
-      "Get found by customers searching for your business in Dubai. Local SEO, GMB optimization, and digital marketing for UAE businesses from Zubaida Digital.",
+      "Get found by customers searching in Dubai. Local SEO, GMB optimization and digital marketing for UAE businesses from Zubaida Digital.",
     h1: "Local SEO Services in Dubai, UAE",
     intro:
       "Dubai's business landscape moves fast, and so does the competition for visibility on Google Maps and local search. Zubaida Digital works with businesses across Dubai to sharpen their Google Business Profile, strengthen local search rankings, and connect with customers actively searching for their services in the UAE.",
@@ -75,7 +75,7 @@ export const locationPages: LocationPage[] = [
     region: "Bhakkar, Gujjar Khan & across Pakistan",
     metaTitle: "Local SEO Services in Pakistan (Bhakkar, Gujjar Khan & More) | Zubaida Digital",
     metaDescription:
-      "Local SEO and Google Business Profile optimization for businesses across Pakistan, including Bhakkar and Gujjar Khan. Get found by local customers with Zubaida Digital.",
+      "Local SEO and Google Business Profile optimization for businesses across Pakistan, including Bhakkar and Gujjar Khan, by Zubaida Digital.",
     h1: "Local SEO Services in Pakistan",
     intro:
       "Many local businesses across Pakistan — including Bhakkar, Gujjar Khan, and beyond — are still missing out on customers who are searching for them on Google every day. Zubaida Digital helps Pakistani businesses claim and optimize their Google Business Profile, build genuine local SEO, and start showing up where it matters most: local search and Google Maps.",

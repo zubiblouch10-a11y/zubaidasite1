@@ -5,7 +5,7 @@ export default function SiteBackground() {
     <div className="fixed inset-0 -z-50 overflow-hidden bg-bg" aria-hidden="true">
       <Image
         src="/founder.jpg"
-        alt=""
+        alt="Zubaida, founder of Zubaida Digital, digital marketing and local SEO specialist"
         fill
         quality={40}
         sizes="100vw"
