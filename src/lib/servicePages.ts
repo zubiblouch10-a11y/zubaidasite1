@@ -17,7 +17,7 @@ export const servicePages: ServicePageData[] = [
     slug: "google-business-profile-optimization",
     icon: "map-pin",
     title: "Google Business Profile (GMB) Optimization",
-    metaTitle: "Google Business Profile Optimization Services | Zubaida Digital",
+    metaTitle: "Google Business Profile Optimization | Zubaida Digital",
     metaDescription:
       "Rank in the Google Maps 3-pack with expert Google Business Profile optimization. We set up, verify and optimize your GMB listing for local customers.",
     h1: "Google Business Profile Optimization",
@@ -34,7 +34,7 @@ export const servicePages: ServicePageData[] = [
     slug: "local-seo-services",
     icon: "search",
     title: "Local SEO & Search Engine Optimization",
-    metaTitle: "Local SEO Services | On-Page, Off-Page & Technical SEO | Zubaida Digital",
+    metaTitle: "Local SEO Services & Optimization | Zubaida Digital",
     metaDescription:
       "Get found by nearby customers with expert local SEO. On-page, off-page and technical SEO to push your website up Google's local rankings.",
     h1: "Local SEO & Search Engine Optimization",
@@ -51,7 +51,7 @@ export const servicePages: ServicePageData[] = [
     slug: "social-media-marketing",
     icon: "share",
     title: "Social Media Marketing",
-    metaTitle: "Social Media Marketing Services | Meta, TikTok, Pinterest & YouTube | Zubaida Digital",
+    metaTitle: "Social Media Marketing Services | Zubaida Digital",
     metaDescription:
       "Grow an audience that buys. Zubaida Digital runs social media strategy, content and ads across Meta, TikTok, Pinterest and YouTube.",
     h1: "Social Media Marketing",
@@ -68,7 +68,7 @@ export const servicePages: ServicePageData[] = [
     slug: "ecommerce-marketing",
     icon: "cart",
     title: "E-commerce Marketing & Growth",
-    metaTitle: "E-commerce Marketing Services | More Sales, Lower CAC | Zubaida Digital",
+    metaTitle: "E-commerce Marketing & Growth | Zubaida Digital",
     metaDescription:
       "Turn browsers into repeat customers. Full-funnel e-commerce marketing and storefront optimization to grow sales and lower your acquisition cost.",
     h1: "E-commerce Marketing & Growth",
@@ -85,7 +85,7 @@ export const servicePages: ServicePageData[] = [
     slug: "content-marketing-reputation-management",
     icon: "star",
     title: "Content Marketing & Online Reputation Management",
-    metaTitle: "Content Marketing & Online Reputation Management | Zubaida Digital",
+    metaTitle: "Content & Reputation Management | Zubaida Digital",
     metaDescription:
       "Build trust online with consistent content and proactive review management from Zubaida Digital, so your business stays the trusted choice.",
     h1: "Content Marketing & Online Reputation Management",
@@ -102,7 +102,7 @@ export const servicePages: ServicePageData[] = [
     slug: "business-growth-strategy",
     icon: "chart",
     title: "Business Development & Strategy",
-    metaTitle: "Business Growth Strategy & Lead Generation Services | Zubaida Digital",
+    metaTitle: "Business Growth Strategy Services | Zubaida Digital",
     metaDescription:
       "Scalable, data-driven growth strategy and lead generation systems tailored to your market, planned by Zubaida Digital.",
     h1: "Business Development & Strategy",

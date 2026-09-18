@@ -37,7 +37,7 @@ export const locationPages: LocationPage[] = [
     flag: "🇦🇪",
     city: "Dubai",
     region: "Dubai, United Arab Emirates",
-    metaTitle: "Local SEO & Google Business Profile Services in Dubai, UAE | Zubaida Digital",
+    metaTitle: "Local SEO Services in Dubai, UAE | Zubaida Digital",
     metaDescription:
       "Get found by customers searching in Dubai. Local SEO, GMB optimization and digital marketing for UAE businesses from Zubaida Digital.",
     h1: "Local SEO Services in Dubai, UAE",
@@ -55,7 +55,7 @@ export const locationPages: LocationPage[] = [
     flag: "🇸🇦",
     city: "Saudi Arabia",
     region: "Riyadh, Jeddah & Dammam, Saudi Arabia",
-    metaTitle: "Local SEO Services in Saudi Arabia (Riyadh, Jeddah, Dammam) | Zubaida Digital",
+    metaTitle: "Local SEO in Saudi Arabia (Riyadh, Jeddah) | Zubaida Digital",
     metaDescription:
       "Local SEO and Google Business Profile optimization for businesses in Riyadh, Jeddah, and Dammam. Get discovered by local customers with Zubaida Digital.",
     h1: "Local SEO Services in Saudi Arabia",
@@ -73,7 +73,7 @@ export const locationPages: LocationPage[] = [
     flag: "🇵🇰",
     city: "Pakistan",
     region: "Bhakkar, Gujjar Khan & across Pakistan",
-    metaTitle: "Local SEO Services in Pakistan (Bhakkar, Gujjar Khan & More) | Zubaida Digital",
+    metaTitle: "Local SEO Services in Pakistan | Zubaida Digital",
     metaDescription:
       "Local SEO and Google Business Profile optimization for businesses across Pakistan, including Bhakkar and Gujjar Khan, by Zubaida Digital.",
     h1: "Local SEO Services in Pakistan",

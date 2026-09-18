@@ -15,7 +15,7 @@ const displayFont = Space_Grotesk({
   subsets: ["latin"],
 });
 
-const title = "Zubaida Digital | Premium Digital Marketing & Local SEO Agency";
+const title = "Zubaida Digital | Local SEO & Digital Marketing Agency";
 const description =
   "Zubaida Digital helps businesses rank on Google Maps and local search with GMB optimization, Local SEO, social media marketing and e-commerce growth.";
 
