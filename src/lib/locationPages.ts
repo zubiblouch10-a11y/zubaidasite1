@@ -86,6 +86,60 @@ export const locationPages: LocationPage[] = [
       "Social media marketing to build a real local following",
     ],
   },
+  {
+    slug: "local-seo-canada",
+    flag: "🇨🇦",
+    city: "Canada",
+    region: "Toronto, Vancouver & across Canada",
+    metaTitle: "Local SEO Services in Canada | Zubaida Digital",
+    metaDescription:
+      "Rank in Google Maps and local search across Canada. Google Business Profile optimization and local SEO for Canadian businesses by Zubaida Digital.",
+    h1: "Local SEO Services in Canada",
+    intro:
+      "Canadian customers find local businesses through Google Maps and 'near me' searches every day, and the businesses in the Maps 3-pack take most of the calls. Zubaida Digital helps businesses across Canada — from Toronto, Vancouver and Calgary to Montreal and smaller towns — optimize their Google Business Profile, build strong local SEO signals, and turn nearby searches into paying customers. Everything is done online, so we can support your business wherever in Canada you are based.",
+    highlights: [
+      "Google Business Profile setup & optimization for Canadian businesses",
+      "Local keyword targeting for Canadian cities and neighbourhoods",
+      "Citation building and review management to boost local trust",
+      "Local SEO strategy suited to English and French speaking audiences",
+    ],
+  },
+  {
+    slug: "local-seo-uk",
+    flag: "🇬🇧",
+    city: "United Kingdom",
+    region: "London, Manchester, Birmingham & nationwide",
+    metaTitle: "Local SEO Services in the UK | Zubaida Digital",
+    metaDescription:
+      "Local SEO and Google Business Profile optimization for businesses across the UK — London, Manchester, Birmingham, Leeds and beyond, by Zubaida Digital.",
+    h1: "Local SEO Services in the United Kingdom",
+    intro:
+      "Across the United Kingdom, customers search Google before they visit a shop, book a service or choose a tradesperson — and most pick from the first few local results. Zubaida Digital helps UK businesses in London, Manchester, Birmingham, Leeds, Glasgow and towns across England, Scotland and Wales optimize their Google Business Profile, strengthen their local SEO, and get found ahead of competitors. Our service is fully online, so your business gets capital-city expertise wherever in the UK you are based.",
+    highlights: [
+      "Google Business Profile setup & optimization for businesses UK-wide",
+      "Local keyword targeting for UK cities, boroughs and postcodes",
+      "Citation building and review management to build local trust",
+      "Local SEO support for smaller cities and towns, not just London",
+    ],
+  },
+  {
+    slug: "local-seo-usa",
+    flag: "🇺🇸",
+    city: "United States",
+    region: "New York, Los Angeles, Chicago & nationwide",
+    metaTitle: "Local SEO Services in the USA | Zubaida Digital",
+    metaDescription:
+      "Rank in Google Maps and local search across the USA. Google Business Profile optimization and local SEO for American businesses by Zubaida Digital.",
+    h1: "Local SEO Services in the United States",
+    intro:
+      "The United States is the biggest local search market in the world — billions of 'near me' searches every month, and fierce competition for the Google Maps 3-pack in every city. Zubaida Digital helps US businesses optimize their Google Business Profile, build genuine local SEO authority, and turn local searches into calls, bookings and sales. We work fully online with businesses in New York, Los Angeles, Chicago, Houston and every state in between, so distance and time zones never get in the way.",
+    highlights: [
+      "Google Business Profile setup & optimization for US businesses",
+      "Local keyword targeting for US cities and neighbourhoods",
+      "Citation building on major US directories and review management",
+      "Social media & e-commerce growth support for American brands",
+    ],
+  },
 ];
 
 export function getLocationPage(slug: string): LocationPage | undefined {

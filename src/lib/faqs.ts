@@ -243,6 +243,87 @@ const faqs: Record<string, Faq[]> = {
         "It depends on your city, your category and how much competition you face. Our packages are built to be affordable for growing local businesses — book a free consultation and we will give you a clear quote for your business.",
     },
   ],
+  "local-seo-canada": [
+    {
+      question: "Do you offer local SEO for businesses in Canada?",
+      answer:
+        "Yes. We help businesses across Canada, including Toronto, Vancouver, Calgary and Montreal, get found on Google Maps and local search. Everything is done online, so we can work with you wherever in Canada you are based.",
+    },
+    {
+      question: "Can you help with Google Business Profile for a Canadian business?",
+      answer:
+        "Yes. We set up, verify and optimize your listing with the right categories, services and photos, so customers searching nearby in Canada can find and contact you.",
+    },
+    {
+      question: "Do you work with businesses in smaller Canadian cities and towns?",
+      answer:
+        "Yes, and smaller markets are often a big opportunity: competition for the Maps 3-pack is lower, so a well-optimized profile can start bringing in customers sooner.",
+    },
+    {
+      question: "Can you support businesses that serve English and French speaking customers?",
+      answer:
+        "Yes. We tailor local SEO and content strategy for English and French speaking audiences, which matters for businesses serving Quebec and bilingual communities.",
+    },
+    {
+      question: "How do I get started?",
+      answer:
+        "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps for your city and category.",
+    },
+  ],
+  "local-seo-uk": [
+    {
+      question: "Do you offer local SEO across the UK, not just London?",
+      answer:
+        "Yes. We work with businesses across England, Scotland and Wales — including Manchester, Birmingham, Leeds and Glasgow — and everything is done online.",
+    },
+    {
+      question: "Which UK cities do you cover?",
+      answer:
+        "Any city or town in the UK. London, Manchester, Birmingham, Leeds and Glasgow are common starting points, but our online service covers the whole country, including smaller towns where competition is lower.",
+    },
+    {
+      question: "Can you help if my business is not on Google Maps yet?",
+      answer:
+        "Yes. We create and verify your Google Business Profile from scratch, add the right categories, services and photos, and set it up so customers in your area can find and call you.",
+    },
+    {
+      question: "How long does local SEO take to show results in the UK?",
+      answer:
+        "Most businesses start seeing movement within a few weeks, with stronger rankings building over the following months. Competitive cities take longer, which is why consistent profile activity and genuine reviews matter.",
+    },
+    {
+      question: "How do I get started?",
+      answer:
+        "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps.",
+    },
+  ],
+  "local-seo-usa": [
+    {
+      question: "Do you offer local SEO for businesses in the USA?",
+      answer:
+        "Yes. We work with businesses in every US state, fully online — from New York and Los Angeles to Chicago, Houston and smaller cities and towns.",
+    },
+    {
+      question: "Can you help with Google Business Profile for a US business?",
+      answer:
+        "Yes. We set up, verify and optimize your listing so your business can compete for the Google Maps 3-pack and turn 'near me' searches into calls and bookings.",
+    },
+    {
+      question: "Which US cities do you support?",
+      answer:
+        "All of them. New York, Los Angeles, Chicago and Houston are examples, not limits — if your customers search for you on Google, we can build your local presence.",
+    },
+    {
+      question: "Do you build citations and manage reviews for US businesses?",
+      answer:
+        "Yes. We build consistent listings on major US directories and help you collect genuine reviews and respond to feedback, which builds the trust signals local rankings depend on.",
+    },
+    {
+      question: "How do I get started from the USA?",
+      answer:
+        "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps for your city and category.",
+    },
+  ],
 };
 
 export function getFaqs(slug: string): Faq[] {

@@ -19,7 +19,7 @@ export const site = {
   legalName: "Zubaida Digital Marketing",
   tagline: "Digital Marketing Specialist & Local SEO Agency",
   description:
-    "Zubaida Digital helps businesses dominate Google Local Search with Google Business Profile optimization, Local SEO, social media marketing, and e-commerce growth across the UK, UAE, Saudi Arabia, and Pakistan.",
+    "Zubaida Digital helps businesses dominate Google Local Search with Google Business Profile optimization, Local SEO, social media marketing, and e-commerce growth across the UK, USA, Canada, UAE, Saudi Arabia, and Pakistan.",
   url: siteUrl,
   logo: `${siteUrl}/logo.png`,
   phoneDisplay: "0313 0071224",
@@ -114,6 +114,9 @@ export const serviceAreas: ServiceArea[] = [
   { country: "Dubai, UAE", detail: "United Arab Emirates", flag: "🇦🇪", slug: "local-seo-dubai" },
   { country: "Saudi Arabia", detail: "Riyadh · Jeddah · Dammam", flag: "🇸🇦", slug: "local-seo-saudi-arabia" },
   { country: "Pakistan", detail: "Bhakkar · Gujjar Khan & more", flag: "🇵🇰", slug: "local-seo-pakistan" },
+  { country: "Canada", detail: "Toronto · Vancouver & more", flag: "🇨🇦", slug: "local-seo-canada" },
+  { country: "United Kingdom", detail: "London · Manchester · Birmingham & more", flag: "🇬🇧", slug: "local-seo-uk" },
+  { country: "United States", detail: "New York · Los Angeles · Chicago & more", flag: "🇺🇸", slug: "local-seo-usa" },
 ];
 
 export type SocialLink = {
