@@ -42,7 +42,7 @@ export const locationPages: LocationPage[] = [
       "Get found by customers searching in Dubai. Local SEO, GMB optimization and digital marketing for UAE businesses from Zubaida Digital.",
     h1: "Local SEO Services in Dubai, UAE",
     intro:
-      "Dubai's business landscape moves fast, and so does the competition for visibility on Google Maps and local search. Zubaida Digital works with businesses across Dubai to sharpen their Google Business Profile, strengthen local search rankings, and connect with customers actively searching for their services in the UAE.",
+      "Dubai's business landscape moves fast, and so does the competition for visibility on Google Maps and local search. Zubaida Digital works with businesses across Dubai to sharpen their Google Business Profile, strengthen local search rankings, and connect with customers actively searching for their services in the UAE. From car lift and transport companies to salons, clinics, car detailing studios and e-commerce brands, we turn Dubai searches into calls, bookings and sales.",
     highlights: [
       "Google Maps ranking optimization for Dubai-based businesses",
       "Local SEO strategy built for the UAE's bilingual (Arabic/English) audience",
@@ -78,7 +78,7 @@ export const locationPages: LocationPage[] = [
       "Local SEO and Google Business Profile optimization for businesses across Pakistan, including Bhakkar and Gujjar Khan, by Zubaida Digital.",
     h1: "Local SEO Services in Pakistan",
     intro:
-      "Many local businesses across Pakistan — including Bhakkar, Gujjar Khan, and beyond — are still missing out on customers who are searching for them on Google every day. Zubaida Digital helps Pakistani businesses claim and optimize their Google Business Profile, build genuine local SEO, and start showing up where it matters most: local search and Google Maps.",
+      "Many local businesses across Pakistan — including Bhakkar, Gujjar Khan, and beyond — are still missing out on customers who are searching for them on Google every day. Zubaida Digital helps Pakistani businesses claim and optimize their Google Business Profile, build genuine local SEO, and start showing up where it matters most: local search and Google Maps. From shops and clinics to car wash, detailing and home services, we build the local signals — accurate categories, real photos, genuine reviews and consistent listings — that turn 'near me' searches into phone calls.",
     highlights: [
       "Google Business Profile setup for businesses across Pakistan",
       "Local SEO for smaller cities and towns, not just metros",

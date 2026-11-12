@@ -1,6 +1,38 @@
 export type Faq = { question: string; answer: string };
 
 const faqs: Record<string, Faq[]> = {
+  home: [
+    {
+      question: "What does Zubaida Digital do?",
+      answer:
+        "Zubaida Digital is a local SEO and digital marketing agency. We help local businesses get more customers from Google with Google Business Profile optimization, local SEO, social media marketing, and e-commerce growth.",
+    },
+    {
+      question: "Which areas does Zubaida Digital serve?",
+      answer:
+        "We work with businesses in Pakistan, Dubai and the UAE, London and the UK, and Saudi Arabia (Riyadh, Jeddah and Dammam). All work is done online, so your business can be in any city in these markets.",
+    },
+    {
+      question: "How can local SEO help my business get more customers?",
+      answer:
+        "When people nearby search for your service, local SEO helps your business appear in Google Maps and the top local results. That visibility turns into more calls, direction requests, bookings and sales from customers who are ready to buy.",
+    },
+    {
+      question: "Do you optimize Google Business Profiles?",
+      answer:
+        "Yes. We set up, verify and fully optimize Google Business Profiles — categories, services, photos, posts and reviews — so your business can rank in the Google Maps 3-pack and stand out against competitors.",
+    },
+    {
+      question: "How much does local SEO cost?",
+      answer:
+        "The cost depends on your market, your competition and how much work your online presence needs. Book a free consultation or message us on WhatsApp and we will review your current presence and give you a clear quote before you commit to anything.",
+    },
+    {
+      question: "How do I get started with Zubaida Digital?",
+      answer:
+        "Message us on WhatsApp at 0313 0071224 or book a free consultation on our booking page. We will look at your current Google presence and tell you exactly what to fix first.",
+    },
+  ],
   "google-business-profile-optimization": [
     {
       question: "What is Google Business Profile optimization?",
@@ -119,6 +151,16 @@ const faqs: Record<string, Faq[]> = {
       answer:
         "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps.",
     },
+    {
+      question: "How long does local SEO take to show results in London?",
+      answer:
+        "Most businesses start seeing movement in a few weeks, with stronger Maps and local rankings building over the following months. Competitive London categories take longer, which is why consistent profile activity and reviews matter.",
+    },
+    {
+      question: "Do you work with businesses outside London in the UK?",
+      answer:
+        "Yes. Everything is done online, so we support businesses across the UK, not only in London.",
+    },
   ],
   "local-seo-dubai": [
     {
@@ -135,6 +177,16 @@ const faqs: Record<string, Faq[]> = {
       question: "Do you also run social media and e-commerce marketing in the UAE?",
       answer:
         "Yes. Alongside local SEO we offer social media marketing, e-commerce growth, and lead generation for UAE brands.",
+    },
+    {
+      question: "How long does it take to rank in Google Maps in Dubai?",
+      answer:
+        "A new or unoptimized profile usually needs a few weeks of consistent work before rankings move, and competitive Dubai categories build over months. The businesses that win are the ones with complete profiles, regular posts and a steady flow of genuine reviews.",
+    },
+    {
+      question: "Can you help a new business in Dubai get its first customers from Google?",
+      answer:
+        "Yes. We set up your Google Business Profile correctly from day one, build your local SEO foundation, and promote your services so nearby customers can find and contact you.",
     },
   ],
   "local-seo-saudi-arabia": [
@@ -153,6 +205,16 @@ const faqs: Record<string, Faq[]> = {
       answer:
         "Yes. We help you collect genuine reviews and respond to feedback so your business builds trust in local search.",
     },
+    {
+      question: "Do you offer social media marketing for Saudi businesses?",
+      answer:
+        "Yes. Alongside local SEO we run social media and content marketing tailored to the Saudi audience, so your brand stays visible between searches.",
+    },
+    {
+      question: "How do I get started if my business is in Saudi Arabia?",
+      answer:
+        "Message us on WhatsApp or book a free consultation. We will review your current Google presence and recommend the next steps for your city and category.",
+    },
   ],
   "local-seo-pakistan": [
     {
@@ -169,6 +231,16 @@ const faqs: Record<string, Faq[]> = {
       question: "How do I contact Zubaida Digital in Pakistan?",
       answer:
         "Call or WhatsApp 0313 0071224 or 0370 1167119, or book a free consultation on our booking page.",
+    },
+    {
+      question: "Can you help my business appear on Google Maps if it is not listed yet?",
+      answer:
+        "Yes. We create and verify your Google Business Profile from scratch, add the right categories, services and photos, and set it up so customers in your city can find and call you.",
+    },
+    {
+      question: "How much does local SEO cost in Pakistan?",
+      answer:
+        "It depends on your city, your category and how much competition you face. Our packages are built to be affordable for growing local businesses — book a free consultation and we will give you a clear quote for your business.",
     },
   ],
 };

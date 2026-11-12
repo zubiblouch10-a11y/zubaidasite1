@@ -5,7 +5,7 @@ export const siteUrl =
     : "https://zubaidasite1.vercel.app");
 
 // Bump when page content changes so the sitemap <lastmod> stays truthful.
-export const contentLastModified = new Date("2026-09-18");
+export const contentLastModified = new Date("2026-11-12");
 
 export const ogImage = {
   url: "/opengraph-image",
