@@ -40,7 +40,7 @@ export default function Hero() {
             Zubaida Digital is a premium Digital Marketing Specialist &amp;
             Local SEO Agency helping businesses win the Google Maps 3-pack,
             rank higher in local search, and generate qualified leads across
-            the UK, UAE, Saudi Arabia &amp; Pakistan.
+            the UK, USA, Canada, UAE, Saudi Arabia &amp; Pakistan.
           </p>
 
           <ul className="mt-6 flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:gap-x-6">
