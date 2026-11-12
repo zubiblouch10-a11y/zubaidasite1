@@ -31,9 +31,9 @@ export default function Hero() {
           </div>
 
           <h1 className="font-display text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
-            Scale Your Business &amp;{" "}
-            <span className="text-gradient">Dominate Google</span> Local
-            Search
+            Local SEO &amp;{" "}
+            <span className="text-gradient">Digital Marketing</span> That
+            Dominates Google Local Search
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-text-muted sm:text-lg">

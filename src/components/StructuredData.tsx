@@ -1,6 +1,8 @@
+import { getFaqs } from "@/lib/faqs";
 import { serviceAreas, services, site, socialLinks } from "@/lib/site";
 
 export default function StructuredData() {
+  const homeFaqs = getFaqs("home");
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -40,6 +42,19 @@ export default function StructuredData() {
         publisher: { "@id": `${site.url}/#business` },
         inLanguage: "en",
       },
+      ...(homeFaqs.length > 0
+        ? [
+            {
+              "@type": "FAQPage",
+              "@id": `${site.url}/#faq`,
+              mainEntity: homeFaqs.map((faq) => ({
+                "@type": "Question",
+                name: faq.question,
+                acceptedAnswer: { "@type": "Answer", text: faq.answer },
+              })),
+            },
+          ]
+        : []),
     ],
   };
 
