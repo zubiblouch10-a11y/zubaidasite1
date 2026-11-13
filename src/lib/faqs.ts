@@ -220,7 +220,7 @@ const faqs: Record<string, Faq[]> = {
     {
       question: "Do you offer local SEO in Pakistan?",
       answer:
-        "Yes. We help businesses across Pakistan, including Bhakkar and Gujjar Khan, get found on Google Maps and local search.",
+        "Yes. We help businesses across Pakistan — in Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad, Multan, Peshawar and many more cities — get found on Google Maps and local search.",
     },
     {
       question: "Is local SEO useful for businesses in smaller cities and towns?",
