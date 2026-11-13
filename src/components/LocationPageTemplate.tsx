@@ -7,7 +7,12 @@ import LocationStructuredData from "./LocationStructuredData";
 import RelatedLinks from "./RelatedLinks";
 import Services from "./Services";
 import WhatsAppFloat from "./WhatsAppFloat";
-import { locationPages, type LocationPage } from "@/lib/locationPages";
+import {
+  getLocationPage,
+  locationChildren,
+  locationPages,
+  type LocationPage,
+} from "@/lib/locationPages";
 
 const Contact = dynamic(() => import("./Contact"));
 
@@ -16,12 +21,24 @@ export default function LocationPageTemplate({ location }: { location: LocationP
     .filter((l) => l.slug !== location.slug)
     .map((l) => ({ label: `${l.flag} Local SEO in ${l.city}`, href: `/${l.slug}` }));
 
+  const childSlugs = locationChildren[location.slug] ?? [];
+  const children = childSlugs
+    .map((slug) => getLocationPage(slug))
+    .filter((l): l is LocationPage => Boolean(l))
+    .map((l) => ({ label: `${l.flag} Local SEO Expert in ${l.city}`, href: `/${l.slug}` }));
+
   return (
     <>
       <LocationStructuredData location={location} />
       <Header />
       <main className="flex-1">
         <LocationHero location={location} />
+        {children.length > 0 && (
+          <RelatedLinks
+            heading={`Local SEO Expert in Cities Across ${location.city}`}
+            links={children}
+          />
+        )}
         <FaqSection slug={location.slug} />
         <RelatedLinks heading="Other Locations We Serve" links={related} />
         <Services />
