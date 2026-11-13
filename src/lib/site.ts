@@ -113,7 +113,7 @@ export const serviceAreas: ServiceArea[] = [
   { country: "London, UK", detail: "United Kingdom", flag: "🇬🇧", slug: "local-seo-london" },
   { country: "Dubai, UAE", detail: "United Arab Emirates", flag: "🇦🇪", slug: "local-seo-dubai" },
   { country: "Saudi Arabia", detail: "Riyadh · Jeddah · Dammam", flag: "🇸🇦", slug: "local-seo-saudi-arabia" },
-  { country: "Pakistan", detail: "Bhakkar · Gujjar Khan & more", flag: "🇵🇰", slug: "local-seo-pakistan" },
+  { country: "Pakistan", detail: "Karachi · Lahore · Islamabad · Rawalpindi · Faisalabad · Multan · Peshawar · Hyderabad · Sialkot · Gujranwala · Quetta · Bahawalpur · Sukkur · Abbottabad · Mardan · Rahim Yar Khan · Sheikhupura · Larkana · Kasur · Dera Ghazi Khan", flag: "🇵🇰", slug: "local-seo-pakistan" },
   { country: "Canada", detail: "Toronto · Vancouver & more", flag: "🇨🇦", slug: "local-seo-canada" },
   { country: "United Kingdom", detail: "London · Manchester · Birmingham & more", flag: "🇬🇧", slug: "local-seo-uk" },
   { country: "United States", detail: "New York · Los Angeles · Chicago & more", flag: "🇺🇸", slug: "local-seo-usa" },
