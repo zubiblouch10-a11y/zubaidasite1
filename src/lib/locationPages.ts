@@ -72,18 +72,18 @@ export const locationPages: LocationPage[] = [
     slug: "local-seo-pakistan",
     flag: "🇵🇰",
     city: "Pakistan",
-    region: "Bhakkar, Gujjar Khan & across Pakistan",
+    region: "Karachi, Lahore, Islamabad & across Pakistan",
     metaTitle: "Local SEO Expert in Pakistan | Zubaida Digital",
     metaDescription:
-      "Local SEO and Google Business Profile optimization for businesses across Pakistan, including Bhakkar and Gujjar Khan, by Zubaida Digital.",
+      "Local SEO expert in Pakistan — Google Business Profile optimization and local SEO for businesses in Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad and across Pakistan, by Zubaida Digital.",
     h1: "Local SEO Expert in Pakistan",
     intro:
-      "Many local businesses across Pakistan — including Bhakkar, Gujjar Khan, and beyond — are still missing out on customers who are searching for them on Google every day. Zubaida Digital helps Pakistani businesses claim and optimize their Google Business Profile, build genuine local SEO, and start showing up where it matters most: local search and Google Maps. From shops and clinics to car wash, detailing and home services, we build the local signals — accurate categories, real photos, genuine reviews and consistent listings — that turn 'near me' searches into phone calls.",
+      "Many local businesses across Pakistan are still missing out on customers who search for them on Google every day. Zubaida Digital helps businesses in Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad, Multan, Peshawar and cities all over Pakistan — including Bhakkar and Gujjar Khan — claim and optimize their Google Business Profile, build genuine local SEO, and start showing up where it matters most: local search and Google Maps. Pick your city from the list below for its own dedicated page. From shops and clinics to car wash, detailing and home services, we build the local signals — accurate categories, real photos, genuine reviews and consistent listings — that turn 'near me' searches into phone calls.",
     highlights: [
+      "Dedicated city pages for Karachi, Lahore, Islamabad & 17 more Pakistani cities",
       "Google Business Profile setup for businesses across Pakistan",
       "Local SEO for smaller cities and towns, not just metros",
       "Affordable digital marketing built for growing local businesses",
-      "Social media marketing to build a real local following",
     ],
   },
   {
@@ -854,3 +854,46 @@ export function locationMetadata(location: LocationPage): Metadata {
     },
   };
 }
+
+// Country page -> its city pages, shown as a dedicated "cities" section
+// on the country page so visitors can actually find the city locations.
+export const locationChildren: Record<string, string[]> = {
+  "local-seo-pakistan": [
+    "local-seo-karachi",
+    "local-seo-lahore",
+    "local-seo-islamabad",
+    "local-seo-rawalpindi",
+    "local-seo-faisalabad",
+    "local-seo-multan",
+    "local-seo-peshawar",
+    "local-seo-hyderabad-pakistan",
+    "local-seo-sialkot",
+    "local-seo-gujranwala",
+    "local-seo-quetta",
+    "local-seo-bahawalpur",
+    "local-seo-sukkur",
+    "local-seo-abbottabad",
+    "local-seo-mardan",
+    "local-seo-rahim-yar-khan",
+    "local-seo-sheikhupura",
+    "local-seo-larkana",
+    "local-seo-kasur",
+    "local-seo-dera-ghazi-khan",
+  ],
+  "local-seo-uk": [
+    "local-seo-london",
+    "local-seo-manchester",
+    "local-seo-birmingham",
+    "local-seo-leeds",
+    "local-seo-glasgow",
+  ],
+  "local-seo-usa": [
+    "local-seo-new-york",
+    "local-seo-los-angeles",
+    "local-seo-chicago",
+    "local-seo-houston",
+  ],
+  "local-seo-canada": ["local-seo-toronto", "local-seo-vancouver"],
+  "local-seo-australia": ["local-seo-sydney"],
+  "local-seo-uae": ["local-seo-dubai"],
+};
