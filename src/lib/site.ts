@@ -110,20 +110,20 @@ export type ServiceArea = {
 };
 
 export const serviceAreas: ServiceArea[] = [
-  { country: "London, UK", detail: "United Kingdom", flag: "🇬🇧", slug: "local-seo-london" },
-  { country: "Dubai, UAE", detail: "United Arab Emirates", flag: "🇦🇪", slug: "local-seo-dubai" },
-  { country: "Saudi Arabia", detail: "Riyadh · Jeddah · Dammam", flag: "🇸🇦", slug: "local-seo-saudi-arabia" },
+  { country: "London, UK", detail: "Westminster · Camden · Islington · Hackney · Tower Hamlets · Southwark · Lambeth · Wandsworth · Brent · Ealing · Croydon · Bromley", flag: "🇬🇧", slug: "local-seo-london" },
+  { country: "Dubai, UAE", detail: "Deira · Bur Dubai · Downtown Dubai · Dubai Marina · JLT · Al Barsha · Jebel Ali · International City · Discovery Gardens · Al Nahda · Al Qusais · Mirdif · Karama", flag: "🇦🇪", slug: "local-seo-dubai" },
+  { country: "Saudi Arabia", detail: "Riyadh · Jeddah · Dammam · Makkah · Madinah · Khobar · Jubail · Yanbu · Taif · Abha", flag: "🇸🇦", slug: "local-seo-saudi-arabia" },
   { country: "Pakistan", detail: "Karachi · Lahore · Islamabad · Rawalpindi · Faisalabad · Multan · Peshawar · Hyderabad · Sialkot · Gujranwala · Quetta · Bahawalpur · Sukkur · Abbottabad · Mardan · Rahim Yar Khan · Sheikhupura · Larkana · Kasur · Dera Ghazi Khan", flag: "🇵🇰", slug: "local-seo-pakistan" },
-  { country: "Canada", detail: "Toronto · Vancouver & more", flag: "🇨🇦", slug: "local-seo-canada" },
-  { country: "United Kingdom", detail: "London · Manchester · Birmingham & more", flag: "🇬🇧", slug: "local-seo-uk" },
-  { country: "United States", detail: "New York · Los Angeles · Chicago & more", flag: "🇺🇸", slug: "local-seo-usa" },
-  { country: "Australia", detail: "Sydney · Melbourne & more", flag: "🇦🇺", slug: "local-seo-australia" },
-  { country: "New Zealand", detail: "Auckland · Wellington & more", flag: "🇳🇿", slug: "local-seo-new-zealand" },
-  { country: "Ireland", detail: "Dublin · Cork & more", flag: "🇮🇪", slug: "local-seo-ireland" },
-  { country: "Germany", detail: "Berlin · Munich & more", flag: "🇩🇪", slug: "local-seo-germany" },
-  { country: "Netherlands", detail: "Amsterdam · Rotterdam & more", flag: "🇳🇱", slug: "local-seo-netherlands" },
-  { country: "Singapore", detail: "Citywide", flag: "🇸🇬", slug: "local-seo-singapore" },
-  { country: "United Arab Emirates", detail: "Dubai · Abu Dhabi · Sharjah", flag: "🇦🇪", slug: "local-seo-uae" },
+  { country: "Canada", detail: "Toronto · Vancouver · Calgary · Montreal · Mississauga · Brampton · Ottawa · Edmonton · Winnipeg · Surrey", flag: "🇨🇦", slug: "local-seo-canada" },
+  { country: "United Kingdom", detail: "London · Manchester · Birmingham · Leeds · Glasgow · Liverpool · Bristol · Edinburgh · Leicester · Sheffield", flag: "🇬🇧", slug: "local-seo-uk" },
+  { country: "United States", detail: "New York · Los Angeles · Chicago · Houston · Dallas · Miami · Atlanta · San Francisco · Seattle · Boston", flag: "🇺🇸", slug: "local-seo-usa" },
+  { country: "Australia", detail: "Sydney · Melbourne · Brisbane · Perth · Adelaide · Gold Coast · Canberra · Hobart", flag: "🇦🇺", slug: "local-seo-australia" },
+  { country: "New Zealand", detail: "Auckland · Wellington · Christchurch · Hamilton · Tauranga · Dunedin · Palmerston North", flag: "🇳🇿", slug: "local-seo-new-zealand" },
+  { country: "Ireland", detail: "Dublin · Cork · Galway · Limerick · Waterford · Kilkenny", flag: "🇮🇪", slug: "local-seo-ireland" },
+  { country: "Germany", detail: "Berlin · Munich · Hamburg · Frankfurt · Cologne · Düsseldorf · Stuttgart", flag: "🇩🇪", slug: "local-seo-germany" },
+  { country: "Netherlands", detail: "Amsterdam · Rotterdam · Utrecht · Eindhoven · The Hague · Groningen", flag: "🇳🇱", slug: "local-seo-netherlands" },
+  { country: "Singapore", detail: "Orchard · Tampines · Jurong · Woodlands · Ang Mo Kio · Bedok · Yishun · Sengkang", flag: "🇸🇬", slug: "local-seo-singapore" },
+  { country: "United Arab Emirates", detail: "Dubai · Abu Dhabi · Sharjah · Ajman · Fujairah · Ras Al Khaimah · Umm Al Quwain", flag: "🇦🇪", slug: "local-seo-uae" },
 ];
 
 export type SocialLink = {
