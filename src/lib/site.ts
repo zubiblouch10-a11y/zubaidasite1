@@ -5,7 +5,7 @@ export const siteUrl =
     : "https://zubaidaambreen.com");
 
 // Bump when page content changes so the sitemap <lastmod> stays truthful.
-export const contentLastModified = new Date("2026-11-12");
+export const contentLastModified = new Date("2026-11-13");
 
 export const ogImage = {
   url: "/opengraph-image",
@@ -117,6 +117,13 @@ export const serviceAreas: ServiceArea[] = [
   { country: "Canada", detail: "Toronto · Vancouver & more", flag: "🇨🇦", slug: "local-seo-canada" },
   { country: "United Kingdom", detail: "London · Manchester · Birmingham & more", flag: "🇬🇧", slug: "local-seo-uk" },
   { country: "United States", detail: "New York · Los Angeles · Chicago & more", flag: "🇺🇸", slug: "local-seo-usa" },
+  { country: "Australia", detail: "Sydney · Melbourne & more", flag: "🇦🇺", slug: "local-seo-australia" },
+  { country: "New Zealand", detail: "Auckland · Wellington & more", flag: "🇳🇿", slug: "local-seo-new-zealand" },
+  { country: "Ireland", detail: "Dublin · Cork & more", flag: "🇮🇪", slug: "local-seo-ireland" },
+  { country: "Germany", detail: "Berlin · Munich & more", flag: "🇩🇪", slug: "local-seo-germany" },
+  { country: "Netherlands", detail: "Amsterdam · Rotterdam & more", flag: "🇳🇱", slug: "local-seo-netherlands" },
+  { country: "Singapore", detail: "Citywide", flag: "🇸🇬", slug: "local-seo-singapore" },
+  { country: "United Arab Emirates", detail: "Dubai · Abu Dhabi · Sharjah", flag: "🇦🇪", slug: "local-seo-uae" },
 ];
 
 export type SocialLink = {
