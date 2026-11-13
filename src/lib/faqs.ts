@@ -10,7 +10,7 @@ const faqs: Record<string, Faq[]> = {
     {
       question: "Which areas does Zubaida Digital serve?",
       answer:
-        "We work with businesses across Pakistan (Karachi, Lahore, Islamabad and more), the UK, USA, Canada, Australia, New Zealand, the UAE, Saudi Arabia, Ireland, Germany, the Netherlands and Singapore. All work is done online, so your business can be in any city in these markets.",
+        "We work with businesses across Pakistan — Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad, Multan, Peshawar, Hyderabad, Sialkot, Gujranwala, Quetta, Bahawalpur, Sukkur, Abbottabad, Mardan, Rahim Yar Khan, Sheikhupura, Larkana, Kasur and Dera Ghazi Khan — and in the UK, USA, Canada, Australia, New Zealand, the UAE, Saudi Arabia, Ireland, Germany, the Netherlands and Singapore. All work is done online, so your business can be in any city in these markets.",
     },
     {
       question: "How can local SEO help my business get more customers?",
