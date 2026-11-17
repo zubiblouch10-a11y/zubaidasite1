@@ -34,12 +34,12 @@ export const servicePages: ServicePageData[] = [
     slug: "local-seo-services",
     icon: "search",
     title: "Local SEO & Search Engine Optimization",
-    metaTitle: "Local SEO Services & Optimization | Zubaida Digital",
+    metaTitle: "Local SEO Services by a Local SEO Expert | Zubaida Digital",
     metaDescription:
-      "Get found by nearby customers with expert local SEO. On-page, off-page and technical SEO to push your website up Google's local rankings.",
+      "Get found by nearby customers with a local SEO expert. On-page, off-page and technical local SEO services to push your website up Google's local rankings.",
     h1: "Local SEO & Search Engine Optimization",
     intro:
-      "Ranking on page one of Google takes more than a website — it takes a deliberate local SEO strategy. Zubaida Digital combines on-page optimization, technical SEO fixes, citation building, and local content to push your business up the rankings for the exact keywords your customers are searching for.",
+      "Ranking on page one of Google takes more than a website — it takes a deliberate local SEO strategy. As your local SEO expert, Zubaida Digital combines on-page optimization, technical SEO fixes, citation building, and local content to push your business up the rankings for the exact keywords your customers are searching for.",
     highlights: [
       "On-page SEO: titles, meta descriptions, headings, and content optimization",
       "Technical SEO audits to fix crawlability, speed, and indexing issues",
