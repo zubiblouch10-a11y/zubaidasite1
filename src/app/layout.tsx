@@ -15,9 +15,9 @@ const displayFont = Space_Grotesk({
   subsets: ["latin"],
 });
 
-const title = "Zubaida Digital | Local SEO & Digital Marketing Agency";
+const title = "Zubaida Digital | Local SEO Expert & Digital Marketing Agency";
 const description =
-  "Zubaida Digital helps businesses in Pakistan, Dubai, London & Saudi Arabia rank on Google Maps with local SEO, GMB optimization & social media marketing.";
+  "Local SEO expert Zubaida Digital helps businesses in Pakistan, Dubai & London rank on Google Maps with local SEO, GMB optimization & social media marketing.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
