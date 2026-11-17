@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { ArrowRightIcon, CheckIcon, WhatsAppIcon } from "./Icons";
 import { site, waLink } from "@/lib/site";
-import Reveal from "./Reveal";
 
 const trustPoints = [
   "Google Maps 3-Pack Ranking",
@@ -24,7 +23,7 @@ export default function Hero() {
       />
 
       <div className="mx-auto grid max-w-7xl items-center gap-16 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
-        <Reveal>
+        <>
           <div className="glass mb-6 inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-medium text-text-muted">
             <span className="h-2 w-2 animate-pulse rounded-full bg-[var(--color-neon-green)]" />
             Now Open &middot; Serving Clients Since {site.openingDate}
@@ -37,8 +36,8 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-text-muted sm:text-lg">
-            Zubaida Digital is a premium Digital Marketing Specialist &amp;
-            Local SEO Agency helping businesses win the Google Maps 3-pack,
+            Zubaida Digital is a local SEO expert agency and digital
+            marketing specialist helping businesses win the Google Maps 3-pack,
             rank higher in local search, and generate qualified leads across
             the UK, USA, Canada, Australia, New Zealand, UAE, Saudi Arabia
             &amp; Pakistan — and in major cities worldwide.
@@ -90,9 +89,9 @@ export default function Hero() {
               {site.phoneDisplay2}
             </a>
           </div>
-        </Reveal>
+        </>
 
-        <Reveal delay={150}>
+        <>
           <div className="relative mx-auto max-w-md lg:max-w-none">
             <div className="animate-float glass glow-border relative overflow-hidden rounded-3xl p-6 shadow-[0_20px_80px_-20px_rgba(59,130,246,0.35)] sm:p-8">
               <div className="flex items-center justify-between border-b border-border pb-4">
@@ -157,7 +156,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-        </Reveal>
+        </>
       </div>
     </section>
   );

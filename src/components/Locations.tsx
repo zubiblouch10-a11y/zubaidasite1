@@ -1,5 +1,14 @@
 import { serviceAreas } from "@/lib/site";
+import { locationChildren, locationPages } from "@/lib/locationPages";
 import Reveal from "./Reveal";
+
+const cityLinks = Object.values(locationChildren)
+  .flat()
+  .filter((slug, i, arr) => arr.indexOf(slug) === i)
+  .map((slug) => ({
+    slug,
+    city: locationPages.find((page) => page.slug === slug)?.city ?? slug,
+  }));
 
 export default function Locations() {
   return (
@@ -44,6 +53,24 @@ export default function Locations() {
               </Reveal>
             ))}
           </div>
+        </div>
+
+        <div className="mt-12">
+          <h3 className="font-display text-center text-xl font-bold tracking-tight sm:text-2xl">
+            Local SEO Expert in <span className="text-gradient">Popular Cities</span>
+          </h3>
+          <ul className="mt-6 flex flex-wrap justify-center gap-3">
+            {cityLinks.map(({ slug, city }) => (
+              <li key={slug}>
+                <a
+                  href={`/${slug}`}
+                  className="glass inline-block rounded-full px-4 py-2 text-sm text-text-muted transition hover:border-[var(--color-neon-blue)] hover:text-[var(--color-neon-blue)]"
+                >
+                  Local SEO Expert in {city}
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>

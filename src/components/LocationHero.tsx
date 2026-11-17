@@ -1,7 +1,6 @@
 import { CheckIcon, WhatsAppIcon } from "./Icons";
 import type { LocationPage } from "@/lib/locationPages";
 import { site, waLink } from "@/lib/site";
-import Reveal from "./Reveal";
 
 export default function LocationHero({ location }: { location: LocationPage }) {
   return (
@@ -15,7 +14,7 @@ export default function LocationHero({ location }: { location: LocationPage }) {
       />
 
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <Reveal>
+        <>
           <nav aria-label="Breadcrumb" className="text-xs text-text-muted">
             <a href="/" className="transition hover:text-[var(--color-neon-blue)]">
               Home
@@ -84,7 +83,7 @@ export default function LocationHero({ location }: { location: LocationPage }) {
               {site.phoneDisplay2}
             </a>
           </div>
-        </Reveal>
+        </>
       </div>
     </section>
   );

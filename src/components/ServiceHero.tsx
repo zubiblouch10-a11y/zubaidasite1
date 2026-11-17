@@ -1,7 +1,6 @@
 import { CheckIcon, WhatsAppIcon, ServiceIcon } from "./Icons";
 import type { ServicePageData } from "@/lib/servicePages";
 import { site, waLink } from "@/lib/site";
-import Reveal from "./Reveal";
 
 export default function ServiceHero({ service }: { service: ServicePageData }) {
   return (
@@ -15,7 +14,7 @@ export default function ServiceHero({ service }: { service: ServicePageData }) {
       />
 
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <Reveal>
+        <>
           <nav aria-label="Breadcrumb" className="text-xs text-text-muted">
             <a href="/" className="transition hover:text-[var(--color-neon-blue)]">
               Home
@@ -82,7 +81,7 @@ export default function ServiceHero({ service }: { service: ServicePageData }) {
               {site.phoneDisplay2}
             </a>
           </div>
-        </Reveal>
+        </>
       </div>
     </section>
   );
