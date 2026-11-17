@@ -5,7 +5,7 @@ export const siteUrl =
     : "https://zubaidaambreen.com");
 
 // Bump when page content changes so the sitemap <lastmod> stays truthful.
-export const contentLastModified = new Date("2026-11-13");
+export const contentLastModified = new Date("2026-11-17");
 
 export const ogImage = {
   url: "/opengraph-image",
