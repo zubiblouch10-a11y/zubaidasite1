@@ -11,6 +11,8 @@ export type LocationPage = {
   h1: string;
   intro: string;
   highlights: string[];
+  bodyTitle?: string;
+  body?: string[];
 };
 
 export const locationPages: LocationPage[] = [
@@ -67,6 +69,13 @@ export const locationPages: LocationPage[] = [
       "Reputation and review management to build local trust",
       "Social media & content marketing tailored to the Saudi audience",
     ],
+  bodyTitle:
+    "Local SEO in Saudi Arabia: Riyadh, Jeddah and the Eastern Province",
+  body: [
+    "Saudi Arabia's Vision 2030 business boom has a search habit at its centre: customers find restaurants, clinics, salons and services on Google Maps first, and they choose by rating. In Riyadh's Al Olaya and Hittin districts, Jeddah's Al Hamra and Obhur neighbourhoods, and across Khobar and Dammam in the Eastern Province, a business that is not in the top Maps results effectively does not exist for a new customer.",
+    "Search in the Kingdom is Arabic-first but bilingual in practice, so profiles and pages have to work in both languages: business name, categories, services and reviews. The fundamentals travel well — a complete Google Business Profile, accurate location data, strong recent photos and a steady stream of genuine reviews — but competition in most Saudi categories is still far lighter than in Western markets. Businesses that build their local presence now are buying an advantage that will be expensive to copy later.",
+    "Zubaida Digital helps Saudi businesses claim that advantage early: Google Business Profile setup and optimization for Riyadh, Jeddah, Dammam and Khobar, bilingual local SEO, and review management that builds the rating Saudi customers trust. Everything is handled online with clear reporting. Message us on WhatsApp for a free review of your current presence in the Saudi market.",
+  ],
   },
   {
     slug: "local-seo-pakistan",
@@ -625,6 +634,13 @@ export const locationPages: LocationPage[] = [
       "Local SEO for the UAE's bilingual Arabic/English audience",
       "Coverage beyond Dubai — Abu Dhabi, Sharjah & the Northern Emirates",
     ],
+  bodyTitle:
+    "Local SEO in the UAE: Dubai, Abu Dhabi and Sharjah",
+  body: [
+    "The UAE searches in two languages and buys on WhatsApp. Customers in Dubai, Abu Dhabi and Sharjah discover businesses on Google Maps, check the rating and photos, and then tap call or WhatsApp — web forms come a distant second. Each emirate also behaves like its own market: a Deira trader, a JLT café, a Khalifa City clinic and a Sharjah service company in Al Majaz are not competing with each other, they are competing within a few kilometres of the searcher.",
+    "Winning here means building per-area signals, not one generic listing. A Google Business Profile with your name correctly set in English and Arabic, the right category, honest service areas for each emirate you cover, and a flow of genuine reviews from both local and expat customers. Businesses that operate across Dubai, Abu Dhabi and Sharjah need their website to carry the same structure — clear pages for each market, with the services and areas named the way people here actually search for them.",
+    "This is Zubaida Digital's home ground: we work with UAE service businesses every day, building Google profiles and local SEO that turn searches into WhatsApp enquiries and calls. Profile optimization, bilingual local SEO, review strategy and social media support are all handled for you, with reporting you can actually read. Book a free consultation and we will review your current UAE presence emirate by emirate.",
+  ],
   },
   {
     slug: "local-seo-manchester",
@@ -643,6 +659,13 @@ export const locationPages: LocationPage[] = [
       "Local SEO for trades, clinics, salons and professional services",
       "UK experience with motor-trade and local service businesses",
     ],
+  bodyTitle:
+    "Manchester Local SEO for a City That Searches on Its Phone",
+  body: [
+    "Manchester searches first and walks second. A young, mobile-first population — students, young professionals, MediaCity commuters — means most local buying starts with a \"near me\" search on a phone, and ends with a tap on one of the three Maps results. Northern Quarter independents, Spinningfields professional firms, Didsbury cafés and Chorlton salons are all fighting for the same three slots, suburb by suburb.",
+    "The centre is competitive, but Greater Manchester is full of softer targets. Businesses in Sale, Altrincham, Stockport, Didsbury and Bury often face a fraction of the city-centre competition, and a complete profile with strong reviews can own its local pack while bigger rivals fight over the centre. The fundamentals decide it everywhere: accurate categories, services written for each area you cover, fresh photos, opening hours that are never wrong, and reviews arriving every week — not in one burst after a complaint.",
+    "Zubaida Digital builds that system for Manchester businesses: Google Business Profile optimization, neighbourhood-level local SEO on your site, citations and review management, all handled online with clear monthly reporting. If you serve students, expect demand to surge with the academic calendar — we plan content and review pushes around it. Message us on WhatsApp for a free audit of your Manchester presence and an honest view of where your pack is winnable first.",
+  ],
   },
   {
     slug: "local-seo-birmingham",
@@ -661,6 +684,13 @@ export const locationPages: LocationPage[] = [
       "Local SEO for trades, food, clinics and professional services",
       "Review management that builds West Midlands trust",
     ],
+  bodyTitle:
+    "Why Birmingham Businesses Win or Lose on Google Maps",
+  body: [
+    "Birmingham is the UK's second city, and its customers behave like it. Whether it is a tradesperson in Erdington, a clinic in Edgbaston, a restaurant in Digbeth or a retailer in Sutton Coldfield, the buying journey almost always starts the same way: a Google search, a look at the Maps 3-pack, and a call to one of the three businesses shown. If your business is not in that pack, you are invisible at the exact moment a customer is ready to spend — no matter how good your service is.",
+    "What moves a Birmingham listing is not tricks, it is completeness and proof. The right primary category, services written with the areas you actually cover — Solihull, Sutton Coldfield, West Bromwich, Dudley, Walsall — a steady flow of genuine reviews that mention those areas, real photos, and the same name, address and phone number across the web. Businesses that serve the whole region also need to think beyond one postcode: searches like \"seo west midlands\" show that customers and clients alike look at the wider area, so your profile and website have to tell Google exactly where you work.",
+    "Zubaida Digital builds that presence for Birmingham businesses end to end: Google Business Profile setup and optimization, area-level local SEO on your website, citation building and a review strategy that keeps new proof coming in. Everything is handled online and reported clearly, so you always know what changed and what it produced. Start with a free consultation on WhatsApp — we will review your current Google presence and tell you honestly what your Birmingham market will take to win.",
+  ],
   },
   {
     slug: "local-seo-leeds",
@@ -679,6 +709,13 @@ export const locationPages: LocationPage[] = [
       "Local SEO for professional services, retail, clinics and trades",
       "Citation building and review management for Yorkshire businesses",
     ],
+  bodyTitle:
+    "Leeds Local SEO: Win the Comparison Before the Call",
+  body: [
+    "Leeds runs on comparison. It is Yorkshire's professional services capital, and whether the searcher is a homeowner in Roundhay, a student landlord in Headingley or an office manager in the city centre, they line up the Google Maps results side by side — rating, review count, photos, opening hours — and call the business that looks most trustworthy. Local SEO in Leeds is about winning that ten-second comparison, every time your category is searched.",
+    "The signals that decide it are practical, not mysterious. A Google Business Profile with the right primary category and a full services list. Reviews that keep arriving — ten recent reviews beat fifty old ones. Consistent citations across UK directories. And website pages that speak to the areas you cover, from Horsforth and Chapel Allerton to Morley, Pudsey, Garforth and Wetherby, so Google connects your business to the whole Leeds market rather than one street. Clinics, law firms, trades, salons and retailers all compete on the same shelf: the 3-pack.",
+    "Zubaida Digital manages that shelf for Leeds businesses: profile optimization, area-level local SEO, citation building and a review system that keeps your reputation growing. Everything is delivered online and reported in plain language — rankings, calls and enquiries, not jargon. Start with a free consultation on WhatsApp and we will audit your current Leeds presence and show you the fastest wins first.",
+  ],
   },
   {
     slug: "local-seo-glasgow",
@@ -697,6 +734,13 @@ export const locationPages: LocationPage[] = [
       "Local SEO for trades, hospitality, clinics and retail",
       "Review strategies built for a competitive Scottish market",
     ],
+  bodyTitle:
+    "Local SEO in Glasgow: From the West End to the Southside",
+  body: [
+    "Glasgow is Scotland's commercial engine, and its neighbourhoods search like separate towns. A café in Finnieston, a salon on Byres Road, a trades business in Shawlands and a clinic in the Merchant City are all chasing the same thing: the top of Google Maps when someone nearby searches. Glasgow customers compare ratings, photos and opening hours in seconds, and they overwhelmingly choose from the first three results they see.",
+    "The good news is that Glasgow is not London. Competition for the Maps 3-pack is real but beatable, especially outside the city centre — in areas like Partick, Dennistoun, Bearsden and Milngavie, a complete, well-reviewed profile can climb quickly. The work that matters is consistent: correct categories, services named the way Glaswegians search for them, reviews arriving steadily rather than in one burst, and a website whose pages match the areas you serve. Searches for \"local seo scotland\" also show demand from businesses thinking Scotland-wide — Glasgow is where that demand is strongest.",
+    "Zubaida Digital helps Glasgow businesses turn that local demand into calls and bookings: full Google Business Profile optimization, local SEO built around your actual neighbourhoods, citation building and review management. It is all done online, with clear reporting on rankings, calls and direction requests. Message us on WhatsApp for a free review of your current Google presence — we will show you where your Glasgow competitors are beating you and what to fix first.",
+  ],
   },
   {
     slug: "local-seo-new-york",

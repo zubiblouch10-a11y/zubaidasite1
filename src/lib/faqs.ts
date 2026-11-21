@@ -265,6 +265,16 @@ const faqs: Record<string, Faq[]> = {
         "Yes. We tailor local SEO and content strategy for English and French speaking audiences, which matters for businesses serving Quebec and bilingual communities.",
     },
     {
+      question: "Do Saudi customers search in Arabic or English?",
+      answer:
+        "Arabic first for most consumer categories, with English close behind in business and expat-heavy areas. We build profiles and pages that read naturally in both, so a search in either language finds a complete, trustworthy listing.",
+    },
+    {
+      question: "Is Google Maps really how Saudi customers find businesses?",
+      answer:
+        "Yes — Maps is the default discovery tool for restaurants, clinics, salons and home services across Riyadh, Jeddah and the Eastern Province, and the star rating is usually the deciding factor. That is why review management is built into everything we do for Saudi clients.",
+    },
+    {
       question: "How do I get started?",
       answer:
         "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps for your city and category.",
@@ -1048,6 +1058,16 @@ const faqs: Record<string, Faq[]> = {
         "Yes — and smaller areas are often the biggest opportunity, because competition for the Maps 3-pack is lower. A well-optimized profile in a smaller market can start bringing in customers sooner, and the same work strengthens your presence across the whole region.",
     },
     {
+      question: "Should my UAE Google profile be in Arabic or English?",
+      answer:
+        "Both. UAE customers search in English and Arabic, and Google shows your business in the searcher's language where it can. We set your name, services and posts up bilingually so you are visible and trustworthy to local and expat customers alike.",
+    },
+    {
+      question: "Can one profile cover Dubai, Abu Dhabi and Sharjah?",
+      answer:
+        "One profile can list service areas across all three emirates, but rankings are strongest near your base. Businesses with real operations in more than one emirate usually do better with a properly structured presence for each — we will tell you honestly which setup fits how you actually operate.",
+    },
+    {
       question: "How do I get started?",
       answer:
         "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps for your city and category.",
@@ -1073,6 +1093,16 @@ const faqs: Record<string, Faq[]> = {
       question: "Do you also work with businesses in smaller areas around Manchester?",
       answer:
         "Yes — and smaller areas are often the biggest opportunity, because competition for the Maps 3-pack is lower. A well-optimized profile in a smaller market can start bringing in customers sooner, and the same work strengthens your presence across the whole region.",
+    },
+    {
+      question: "Should we target central Manchester or the suburbs first?",
+      answer:
+        "Usually the suburbs first. Areas like Didsbury, Sale, Altrincham and Stockport have strong demand with far less competition than the Northern Quarter or Spinningfields, so wins come faster — and the authority you build there helps your central rankings too.",
+    },
+    {
+      question: "How does the student market change local SEO in Manchester?",
+      answer:
+        "Demand in student areas like Fallowfield and Rusholme surges at term starts and drops in summer. We time review pushes and content around the academic calendar so your profile is at its strongest exactly when new students are searching.",
     },
     {
       question: "How do I get started?",
@@ -1102,6 +1132,16 @@ const faqs: Record<string, Faq[]> = {
         "Yes — and smaller areas are often the biggest opportunity, because competition for the Maps 3-pack is lower. A well-optimized profile in a smaller market can start bringing in customers sooner, and the same work strengthens your presence across the whole region.",
     },
     {
+      question: "How long does it take to rank in the Birmingham Maps 3-pack?",
+      answer:
+        "Profile fixes — categories, services, photos — can lift visibility within a few weeks. Competitive areas like the city centre and Solihull usually take two to three months of consistent reviews and citations to break into the pack, and we show you the movement in monthly reports rather than asking you to take it on trust.",
+    },
+    {
+      question: "I serve the whole West Midlands, not just Birmingham — can one profile cover that?",
+      answer:
+        "Yes, if it is set up correctly. Your profile's service areas can cover Birmingham, Solihull, Sutton Coldfield, West Bromwich, Dudley and Walsall, and your website should name those areas too, so Google connects you with searches across the West Midlands instead of a single postcode.",
+    },
+    {
       question: "How do I get started?",
       answer:
         "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps for your city and category.",
@@ -1129,6 +1169,16 @@ const faqs: Record<string, Faq[]> = {
         "Yes — and smaller areas are often the biggest opportunity, because competition for the Maps 3-pack is lower. A well-optimized profile in a smaller market can start bringing in customers sooner, and the same work strengthens your presence across the whole region.",
     },
     {
+      question: "Do reviews really change Leeds local rankings?",
+      answer:
+        "Yes — rating and review count are among the strongest Maps ranking signals, and in Leeds they are usually the difference between the three businesses a customer compares. A steady system for asking happy customers at the right moment matters more than a one-off push.",
+    },
+    {
+      question: "We have two locations in Leeds — do we need two Google profiles?",
+      answer:
+        "Yes. Google allows one profile per real location, and each should be optimized for its own area — a Headingley profile and a Morley profile, for example. Two well-run profiles cover far more of the Leeds map than one profile trying to stretch.",
+    },
+    {
       question: "How do I get started?",
       answer:
         "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps for your city and category.",
@@ -1154,6 +1204,16 @@ const faqs: Record<string, Faq[]> = {
       question: "Do you also work with businesses in smaller areas around Glasgow?",
       answer:
         "Yes — and smaller areas are often the biggest opportunity, because competition for the Maps 3-pack is lower. A well-optimized profile in a smaller market can start bringing in customers sooner, and the same work strengthens your presence across the whole region.",
+    },
+    {
+      question: "Does my exact area of Glasgow matter for local SEO?",
+      answer:
+        "Yes. Google ranks you most strongly near your location, so a West End business and a Southside business effectively compete in different packs. We build your profile and pages around the neighbourhoods you actually serve — Partick, Shawlands, Finnieston, the city centre — so you are strong where your customers are.",
+    },
+    {
+      question: "Can you help a Glasgow business get found across Scotland?",
+      answer:
+        "Yes. Glasgow is the natural base for Scotland-wide demand — searches like \"local seo scotland\" start here. We strengthen your Glasgow presence first, then build the signals that help you appear for wider Scottish searches in your category.",
     },
     {
       question: "How do I get started?",
