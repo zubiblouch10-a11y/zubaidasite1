@@ -33,6 +33,13 @@ export const locationPages: LocationPage[] = [
       "Citation building and review management to boost local trust",
       "Ongoing local SEO support tailored to the UK market",
     ],
+  bodyTitle:
+    "Local SEO in London: Borough by Borough, Not One Big Market",
+  body: [
+    "Nobody searches for a business in \"London\" — they search in their borough, on their street, near their station. A customer in Islington looks for a clinic near Angel, a tradesperson gets hired in Hackney or Camden, and a restaurant fills its tables from Southwark or Soho. That is why London local SEO is really thirty-plus separate local markets stitched together, and why a single generic page or profile almost never wins the Maps 3-pack in any of them.",
+    "What wins a borough is precision: a Google Business Profile pinned to the right area, services written the way locals search for them, genuine reviews that mention the neighbourhood, and website pages that speak to the boroughs you actually serve — Westminster and the West End behave nothing like Croydon, Ealing or Richmond. Businesses that cover several boroughs need that coverage stated properly in their profile's service areas and on their site, or Google shows them in none of them.",
+    "Zubaida Digital builds London local SEO borough by borough: profile setup and optimization, area-level pages, citation building and a review strategy that keeps local proof coming in. Everything is handled online and reported clearly, so you can see which boroughs are moving. Start with a free consultation on WhatsApp — we will review your current Google presence and tell you honestly what your part of London will take to win.",
+  ],
   },
   {
     slug: "local-seo-dubai",
@@ -94,6 +101,13 @@ export const locationPages: LocationPage[] = [
       "Local SEO for smaller cities and towns, not just metros",
       "Affordable digital marketing built for growing local businesses",
     ],
+  bodyTitle:
+    "Local SEO in Pakistan: Google Maps Is the New Bazaar",
+  body: [
+    "In Pakistan the buying journey has moved to the phone. Whether it is a clinic in Lahore, a restaurant in Karachi, a car service in Islamabad or a salon in Faisalabad, customers open Google, check the Maps listings, read the reviews and tap call or WhatsApp. The businesses in the 3-pack get the customers; a business with no profile — or a half-empty one — is invisible at the exact moment someone nearby is ready to spend.",
+    "What wins here is not expensive, it is complete: a verified Google Business Profile with the right category, services in the words customers use, real photos, correct hours, and reviews that keep coming — customers in Pakistan read reviews closely before trusting a new business. Searches come in both English and Roman Urdu, and the businesses that show up for both are the ones whose profiles and websites use the terms people actually type. In many Pakistani cities competition on Google is still light, so a properly built presence can start producing calls quickly.",
+    "Zubaida Digital is built for this market: profile setup and optimization, local SEO for your city, citations and a review strategy that builds trust week by week — with clear reporting in simple words, so you always know what changed. Start with a free consultation on WhatsApp and we will review your current Google presence honestly.",
+  ],
   },
   {
     slug: "local-seo-canada",
@@ -130,6 +144,13 @@ export const locationPages: LocationPage[] = [
       "Citation building and review management to build local trust",
       "Local SEO support for smaller cities and towns, not just London",
     ],
+  bodyTitle:
+    "Local SEO Across the UK: One Country, Hundreds of Local Markets",
+  body: [
+    "There is no single \"UK market\" in local search. A customer in Glasgow, a homeowner in Leeds and a patient in Birmingham all search the same way — service plus place, then a look at the Maps 3-pack — but each town and city has its own competitors, its own review counts and its own difficulty. Winning nationally means winning locally, market by market, with a profile and website that tell Google exactly where you work.",
+    "The fundamentals travel well across the whole UK: the right Google Business Profile category, services written with your real coverage areas, genuine reviews that keep coming, accurate hours, and the same business details everywhere Google looks. What changes by market is the effort required — London boroughs and the big city centres take months of consistent work, while many smaller towns still have light competition where a complete profile can reach the pack quickly.",
+    "Zubaida Digital runs UK local SEO as one clear programme: profiles optimized city by city, local pages for the areas you serve, citations and review strategy, all handled online with monthly reporting that shows movement market by market. Start with a free consultation on WhatsApp — tell us your towns and cities, and we will tell you honestly what each one will take to win.",
+  ],
   },
   {
     slug: "local-seo-usa",
@@ -562,6 +583,13 @@ export const locationPages: LocationPage[] = [
       "Citation building and review management for local trust",
       "Local SEO for trades, clinics, retail and professional services",
     ],
+  bodyTitle:
+    "Local SEO in Ireland: Dublin First, Then the Whole Island",
+  body: [
+    "Irish customers search locally with real intent: a plumber in Cork, a café in Galway, a clinic in Dublin 4. Dublin is the biggest and most competitive market — city centre, Temple Bar, Sandyford and the commuter belt all behave differently — but the pattern repeats in every county town: the Google Maps 3-pack takes the calls, and businesses outside it wait for referrals and luck.",
+    "What moves an Irish listing is completeness and local proof: the right category, services written with the areas you cover, opening hours that match reality (bank holidays included), genuine reviews mentioning your town or suburb, and consistent name, address and phone details across your website and Irish directories. For many Irish searches competition is still surprisingly light, which means a properly built profile can reach the pack faster here than in bigger markets — if the basics are done fully and kept up.",
+    "Zubaida Digital builds that presence for Irish businesses end to end: Google Business Profile setup and optimization, local SEO, citations and review strategy, all handled online with clear reporting. Start with a free consultation on WhatsApp — we will review your current Google presence and tell you honestly what your town or city will take to win.",
+  ],
   },
   {
     slug: "local-seo-germany",
@@ -580,6 +608,13 @@ export const locationPages: LocationPage[] = [
       "Local targeting for Berlin, Munich, Hamburg & Frankfurt",
       "Review and citation building to grow local trust",
     ],
+  bodyTitle:
+    "Local SEO in Germany: German Searches, Local Trust",
+  body: [
+    "German customers search in German, on Google.de, and they check the details before they call. A search like a service plus a city — Berlin, Munich, Hamburg, Frankfurt, Cologne — leads straight to the Maps 3-pack, and the businesses shown there are the ones with complete profiles, accurate hours and a steady record of reviews. A listing that is half-finished or written for the wrong language simply does not get considered.",
+    "That language point is where many businesses lose: your Google Business Profile, your services and your website's local pages need the German terms your customers actually type, matched to the districts and cities you serve. German local directories and consistent business details across the web reinforce the same signal. None of this is complicated, but it has to be done thoroughly — German customers notice gaps, and so does Google's ranking.",
+    "Zubaida Digital builds German local SEO end to end: profile setup and optimization structured around German search terms, local pages for your cities, citations and a review strategy that builds trust over time. Everything is handled online and reported clearly. Start with a free consultation on WhatsApp — we will review your current Google presence and tell you honestly what your market will take to win.",
+  ],
   },
   {
     slug: "local-seo-netherlands",
@@ -616,6 +651,13 @@ export const locationPages: LocationPage[] = [
       "Local SEO for F&B, clinics, tuition and service businesses",
       "Review management in a market where ratings decide everything",
     ],
+  bodyTitle:
+    "Local SEO in Singapore: Winning the Neighbourhood Search",
+  body: [
+    "Singapore is a city of neighbourhoods, and its searches work the same way. A customer in Tampines does not call a business in Jurong first; someone near Orchard expects results around Orchard. With almost every search happening on a phone, the Google Maps 3-pack is effectively the shopfront — the three businesses shown get the calls, the directions requests and the walk-ins, and everyone below them shares what is left.",
+    "Winning a Singapore neighbourhood takes the same discipline as anywhere, applied precisely: the correct primary category, services written around how people here actually search, accurate hours (public holidays matter in Singapore), real photos, and reviews that keep coming and mention the area — Tampines, Woodlands, Ang Mo Kio, Bedok, Jurong. Businesses serving the whole island need their coverage set up properly, so Google connects them to searches beyond a single postal district instead of pinning them to one spot.",
+    "Zubaida Digital handles that end to end for Singapore businesses: Google Business Profile setup and optimization, local SEO on your website, citations and review strategy — all done online and reported clearly. Start with a free consultation on WhatsApp and we will review your current Google presence and tell you honestly what your neighbourhood will take to win.",
+  ],
   },
   {
     slug: "local-seo-uae",

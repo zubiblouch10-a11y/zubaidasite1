@@ -147,6 +147,16 @@ const faqs: Record<string, Faq[]> = {
         "London has thousands of businesses competing for the same searches, so a well-optimized Google Business Profile and strong local signals are what get you into the Maps 3-pack ahead of competitors.",
     },
     {
+      question: "I only serve a few London boroughs — is local SEO still worth it?",
+      answer:
+        "Yes — in London it is usually the smartest way to start. Ranking in two or three boroughs where you actually work is far more achievable than chasing the whole city, and the calls from a won borough are real customers. Once those areas are established, the same profile and website can be expanded borough by borough.",
+    },
+    {
+      question: "How competitive is the London Maps 3-pack?",
+      answer:
+        "Very — central London categories like clinics, restaurants and legal services are among the most contested in the UK. Expect profile fixes to help within weeks, but breaking into a central pack usually takes two to three months of consistent reviews, citations and content. We report the movement monthly rather than promising overnight results.",
+    },
+    {
       question: "How do I get started?",
       answer:
         "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps.",
@@ -275,6 +285,16 @@ const faqs: Record<string, Faq[]> = {
         "Yes — Maps is the default discovery tool for restaurants, clinics, salons and home services across Riyadh, Jeddah and the Eastern Province, and the star rating is usually the deciding factor. That is why review management is built into everything we do for Saudi clients.",
     },
     {
+      question: "Does local SEO work in smaller Pakistani cities?",
+      answer:
+        "Yes — often better than in the big cities. In places like Multan, Sialkot, Gujranwala or Peshawar, very few businesses have a complete Google profile, so a properly built listing with real reviews can reach the top of Maps quickly and start bringing calls within weeks.",
+    },
+    {
+      question: "My customers search in both Urdu and English — does that matter?",
+      answer:
+        "It does. Many Pakistani customers type services in Roman Urdu or a mix of both languages. We write your profile services and website content around the terms people actually use, so you show up for both kinds of searches instead of only one.",
+    },
+    {
       question: "How do I get started?",
       answer:
         "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps for your city and category.",
@@ -300,6 +320,16 @@ const faqs: Record<string, Faq[]> = {
       question: "How long does local SEO take to show results in the UK?",
       answer:
         "Most businesses start seeing movement within a few weeks, with stronger rankings building over the following months. Competitive cities take longer, which is why consistent profile activity and genuine reviews matter.",
+    },
+    {
+      question: "Can one campaign cover several UK cities?",
+      answer:
+        "Yes — that is exactly how we run it. Each city gets its own profile setup and local pages, because Google ranks you market by market, but the programme, reporting and review strategy are managed together so you see one clear picture of progress across the UK.",
+    },
+    {
+      question: "Do you work with businesses anywhere in the UK?",
+      answer:
+        "Yes — England, Scotland, Wales and Northern Ireland, from London boroughs to small towns. Everything is handled online; where you are based changes the competition, not the process. Tell us your areas on WhatsApp and we will assess each one honestly.",
     },
     {
       question: "How do I get started?",
@@ -950,6 +980,16 @@ const faqs: Record<string, Faq[]> = {
         "Yes — and smaller areas are often the biggest opportunity, because competition for the Maps 3-pack is lower. A well-optimized profile in a smaller market can start bringing in customers sooner, and the same work strengthens your presence across the whole region.",
     },
     {
+      question: "Do you work with businesses outside Dublin?",
+      answer:
+        "Yes — Cork, Galway, Limerick, Waterford and county towns across Ireland. Outside Dublin the competition for the Maps 3-pack is often lighter, so a complete, well-reviewed profile can start bringing in customers sooner. The work is identical; only the market changes.",
+    },
+    {
+      question: "Does my Irish business need a .ie website to rank locally?",
+      answer:
+        "No — a .ie domain can help signal an Irish focus, but Google ranks your business mainly on your Business Profile, reviews, citations and local content. A .com or .co.uk site with proper Irish local SEO can and does rank in Irish towns and cities.",
+    },
+    {
       question: "How do I get started?",
       answer:
         "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps for your city and category.",
@@ -975,6 +1015,16 @@ const faqs: Record<string, Faq[]> = {
       question: "Do you also work with businesses in smaller areas around Germany?",
       answer:
         "Yes — and smaller areas are often the biggest opportunity, because competition for the Maps 3-pack is lower. A well-optimized profile in a smaller market can start bringing in customers sooner, and the same work strengthens your presence across the whole region.",
+    },
+    {
+      question: "Do my Google profile and website need to be in German?",
+      answer:
+        "For German customers, yes — the profile services, categories and local pages should use the German search terms people actually type on Google.de. An English-only presence misses most local searches. We structure the German keywords and content layout for you as part of the setup.",
+    },
+    {
+      question: "Which German cities do you cover?",
+      answer:
+        "Any — Berlin, Munich, Hamburg, Frankfurt, Cologne, Stuttgart and smaller towns alike. The work is done online, and smaller German markets often have lighter competition, so a complete profile can reach the Maps pack faster there than in the big cities.",
     },
     {
       question: "How do I get started?",
@@ -1029,6 +1079,16 @@ const faqs: Record<string, Faq[]> = {
       question: "Do you also work with businesses in smaller areas around Singapore?",
       answer:
         "Yes — and smaller areas are often the biggest opportunity, because competition for the Maps 3-pack is lower. A well-optimized profile in a smaller market can start bringing in customers sooner, and the same work strengthens your presence across the whole region.",
+    },
+    {
+      question: "Do Singapore customers really search on Google Maps that much?",
+      answer:
+        "Yes — Singapore is one of the most mobile-first markets in the world, and \"near me\" and neighbourhood searches on Google are how most people pick a nearby business. If your business is not in the Maps 3-pack for your area, most of those customers never see you at all.",
+    },
+    {
+      question: "My business serves the whole island — how does local SEO work then?",
+      answer:
+        "Your profile's service areas and your website need to state that coverage properly, district by district, so Google can connect you with searches across Singapore instead of treating you as a single-location business. We set that structure up and support it with area-level content and reviews.",
     },
     {
       question: "How do I get started?",
