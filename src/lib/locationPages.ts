@@ -13,6 +13,13 @@ export type LocationPage = {
   highlights: string[];
   bodyTitle?: string;
   body?: string[];
+  extraSections?: LocationExtraSection[];
+};
+
+export type LocationExtraSection = {
+  title: string;
+  paragraphs: string[];
+  link?: { lead: string; href: string; anchor: string };
 };
 
 export const locationPages: LocationPage[] = [
@@ -708,6 +715,26 @@ export const locationPages: LocationPage[] = [
     "The centre is competitive, but Greater Manchester is full of softer targets. Businesses in Sale, Altrincham, Stockport, Didsbury and Bury often face a fraction of the city-centre competition, and a complete profile with strong reviews can own its local pack while bigger rivals fight over the centre. The fundamentals decide it everywhere: accurate categories, services written for each area you cover, fresh photos, opening hours that are never wrong, and reviews arriving every week — not in one burst after a complaint.",
     "Zubaida Digital builds that system for Manchester businesses: Google Business Profile optimization, neighbourhood-level local SEO on your site, citations and review management, all handled online with clear monthly reporting. If you serve students, expect demand to surge with the academic calendar — we plan content and review pushes around it. Message us on WhatsApp for a free audit of your Manchester presence and an honest view of where your pack is winnable first.",
   ],
+  extraSections: [
+    {
+      title: "Search Engine Optimisation in Withington",
+      paragraphs: [
+        "Withington is its own local market, not just a line on the way to Didsbury. The independent shops, cafés, salons, takeaways and services along Wilmslow Road serve Withington residents, the Fallowfield student population next door and customers drifting in from Didsbury — and every one of them starts on Google. That is why we provide dedicated search engine optimisation in Withington: your Google Business Profile, your reviews and your website need to name Withington clearly, or Google hands those searches to businesses in Fallowfield and Didsbury instead.",
+        "The Withington pack is winnable. Competition is a fraction of the city centre's, so a complete profile, services written for Withington searches, and reviews arriving steadily — timed around the student calendar, when demand for food, services and housing spikes — can put a Withington business in the top three and keep it there. If your customers are in Withington, your SEO should say so, street by street.",
+      ],
+    },
+    {
+      title: "Local SEO in Tameside, Right Next Door",
+      paragraphs: [
+        "Many Manchester businesses also serve the towns immediately east of the city — Droylsden, Audenshaw, Denton and Ashton-under-Lyne sit minutes from the Manchester border, and their customers search by town, not by city. Tameside is a separate local market with its own Maps packs and noticeably lighter competition, so it deserves its own approach rather than a line on a Manchester page.",
+      ],
+      link: {
+        lead: "We now run a dedicated page for the borough — read more about our",
+        href: "/local-seo-tameside",
+        anchor: "local SEO services in Tameside",
+      },
+    },
+  ],
   },
   {
     slug: "local-seo-birmingham",
@@ -732,6 +759,15 @@ export const locationPages: LocationPage[] = [
     "Birmingham is the UK's second city, and its customers behave like it. Whether it is a tradesperson in Erdington, a clinic in Edgbaston, a restaurant in Digbeth or a retailer in Sutton Coldfield, the buying journey almost always starts the same way: a Google search, a look at the Maps 3-pack, and a call to one of the three businesses shown. If your business is not in that pack, you are invisible at the exact moment a customer is ready to spend — no matter how good your service is.",
     "What moves a Birmingham listing is not tricks, it is completeness and proof. The right primary category, services written with the areas you actually cover — Solihull, Sutton Coldfield, West Bromwich, Dudley, Walsall — a steady flow of genuine reviews that mention those areas, real photos, and the same name, address and phone number across the web. Businesses that serve the whole region also need to think beyond one postcode: searches like \"seo west midlands\" show that customers and clients alike look at the wider area, so your profile and website have to tell Google exactly where you work.",
     "Zubaida Digital builds that presence for Birmingham businesses end to end: Google Business Profile setup and optimization, area-level local SEO on your website, citation building and a review strategy that keeps new proof coming in. Everything is handled online and reported clearly, so you always know what changed and what it produced. Start with a free consultation on WhatsApp — we will review your current Google presence and tell you honestly what your Birmingham market will take to win.",
+  ],
+  extraSections: [
+    {
+      title: "SEO Company in Sutton Coldfield",
+      paragraphs: [
+        "Sutton Coldfield is a market of its own. Businesses in Four Oaks, Mere Green, Boldmere and Wylde Green serve customers who search locally — and business owners there search locally too, which is why phrases like \"seo agency sutton coldfield\" and \"seo company sutton coldfield\" keep appearing. As an SEO company working in Sutton Coldfield, Zubaida Digital treats the town as its own local market: its own Maps pack, its own competitors and its own review landscape, not an afterthought on a Birmingham page.",
+        "For a Sutton Coldfield business, that means a Google Business Profile pinned to the town, services and website pages that name Sutton Coldfield and the neighbourhoods you cover, and reviews that mention the area — the signals that win the town's 3-pack. Sutton Coldfield customers expect a professional standard, and a complete, well-reviewed profile is how a local business proves it before the first call. The same work also strengthens your visibility across north Birmingham and the wider West Midlands.",
+      ],
+    },
   ],
   },
   {
@@ -782,6 +818,31 @@ export const locationPages: LocationPage[] = [
     "Glasgow is Scotland's commercial engine, and its neighbourhoods search like separate towns. A café in Finnieston, a salon on Byres Road, a trades business in Shawlands and a clinic in the Merchant City are all chasing the same thing: the top of Google Maps when someone nearby searches. Glasgow customers compare ratings, photos and opening hours in seconds, and they overwhelmingly choose from the first three results they see.",
     "The good news is that Glasgow is not London. Competition for the Maps 3-pack is real but beatable, especially outside the city centre — in areas like Partick, Dennistoun, Bearsden and Milngavie, a complete, well-reviewed profile can climb quickly. The work that matters is consistent: correct categories, services named the way Glaswegians search for them, reviews arriving steadily rather than in one burst, and a website whose pages match the areas you serve. Searches for \"local seo scotland\" also show demand from businesses thinking Scotland-wide — Glasgow is where that demand is strongest.",
     "Zubaida Digital helps Glasgow businesses turn that local demand into calls and bookings: full Google Business Profile optimization, local SEO built around your actual neighbourhoods, citation building and review management. It is all done online, with clear reporting on rankings, calls and direction requests. Message us on WhatsApp for a free review of your current Google presence — we will show you where your Glasgow competitors are beating you and what to fix first.",
+  ],
+  },
+  {
+    slug: "local-seo-tameside",
+    flag: "🇬🇧",
+    city: "Tameside",
+    region: "Tameside, Greater Manchester, United Kingdom",
+    metaTitle: "Local SEO Expert in Tameside | Zubaida Digital",
+    metaDescription:
+      "Local SEO expert in Tameside — Zubaida Digital helps businesses in Ashton-under-Lyne, Denton, Hyde, Stalybridge and across Tameside rank in Google Maps and local search with Google Business Profile optimization.",
+    h1: "Local SEO Expert in Tameside, Greater Manchester",
+    intro:
+      "Tameside is Greater Manchester's eastern borough — a chain of proud market towns including Ashton-under-Lyne, Denton, Hyde, Stalybridge, Dukinfield, Audenshaw, Droylsden and Mossley, each with its own high street and its own customers. Those customers find shops, trades, clinics, salons and services on Google, and the businesses in the Maps 3-pack take the calls. Zubaida Digital works as an SEO consultant for Tameside businesses, optimizing Google Business Profiles and building the local SEO that puts your business in front of searchers in your own town — not just somewhere in Manchester.",
+    highlights: [
+      "Google Business Profile setup & optimization for Tameside businesses",
+      "Town-level targeting — Ashton-under-Lyne, Denton, Hyde, Stalybridge & more",
+      "Local SEO for high-street shops, trades, clinics and service businesses",
+      "Review and citation building that grows trust across Greater Manchester",
+    ],
+  bodyTitle:
+    "Local SEO in Tameside: Nine Towns, Nine Local Markets",
+  body: [
+    "Tameside searches town by town. A customer in Hyde does not scroll through Manchester city centre results to find a local service, and a homeowner in Stalybridge picks from the businesses Google shows for Stalybridge. Ashton-under-Lyne, the borough's biggest town and its retail centre, runs its own competitive market around the town centre and its shops, while Denton, Dukinfield, Audenshaw, Droylsden and Mossley each behave like the separate local markets they are. If your Google presence just says \"Manchester\", you are competing in the hardest market nearby and showing up properly in none of the towns you actually serve.",
+    "The good news is that Tameside is far less contested online than central Manchester. Most local businesses here still rely on word of mouth and a Facebook page, so a complete Google Business Profile — the right category, services written with the towns you cover, genuine reviews that mention your town, real photos, correct hours — can reach the Maps 3-pack faster here than in the city centre. Businesses near the Manchester border, in Droylsden, Audenshaw and Denton, can also appear in east Manchester searches when their service areas are set up properly, giving them two markets from one profile.",
+    "Zubaida Digital provides SEO services in Tameside end to end: Google Business Profile setup and optimization, town-level local SEO on your website, citation building and a review strategy that keeps local proof coming in. Everything is handled online and reported clearly, town by town, so you can see exactly where you are winning. Start with a free consultation on WhatsApp — we will review your current Google presence and tell you honestly what your part of Tameside will take to win.",
   ],
   },
   {
@@ -972,6 +1033,7 @@ export const locationChildren: Record<string, string[]> = {
     "local-seo-birmingham",
     "local-seo-leeds",
     "local-seo-glasgow",
+    "local-seo-tameside",
   ],
   "local-seo-usa": [
     "local-seo-new-york",

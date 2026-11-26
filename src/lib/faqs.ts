@@ -1281,6 +1281,33 @@ const faqs: Record<string, Faq[]> = {
         "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps for your city and category.",
     },
   ],
+  "local-seo-tameside": [
+    {
+      question: "Do you offer local SEO services in Tameside?",
+      answer:
+        "Yes. Zubaida Digital works as a local SEO expert for businesses across Tameside — including Ashton-under-Lyne, Denton, Hyde, Stalybridge, Dukinfield, Audenshaw, Droylsden and Mossley. We optimize your Google Business Profile and local SEO so customers searching in your town find and contact you. Everything is done online, so getting started is simple wherever in the borough you are based.",
+    },
+    {
+      question: "Can you optimize my Google Business Profile in Tameside?",
+      answer:
+        "Yes. We set up, verify and fully optimize your listing — the right categories, services, photos and details — so your Tameside business shows up in Google Maps and the local 3-pack when customers search for what you offer.",
+    },
+    {
+      question: "Is Tameside a separate market from Manchester for local SEO?",
+      answer:
+        "Yes. Google ranks local results by how close your business is to the searcher, so someone searching in Hyde or Stalybridge sees Tameside businesses first — city-centre Manchester listings rarely appear. Even if you also serve Manchester, your business needs its own Tameside signals: a profile and pages that name the towns you cover.",
+    },
+    {
+      question: "Why is local SEO easier to win in Tameside than in central Manchester?",
+      answer:
+        "Because far fewer Tameside businesses have optimized their Google presence. Most still rely on word of mouth, so a complete profile with the right category and a steady flow of genuine reviews can reach the Maps 3-pack faster here. Ashton-under-Lyne, the borough's biggest town, is the most competitive part; smaller towns like Mossley and Dukinfield are lighter still.",
+    },
+    {
+      question: "How do I get started?",
+      answer:
+        "Message us on WhatsApp or book a free consultation. We'll review your current Google presence and recommend the next steps for your city and category.",
+    },
+  ],
   "local-seo-new-york": [
     {
       question: "Do you offer local SEO services in New York?",

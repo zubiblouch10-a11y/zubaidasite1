@@ -51,6 +51,34 @@ export default function LocationPageTemplate({ location }: { location: LocationP
             </div>
           </section>
         )}
+        {location.extraSections?.map((section) => (
+          <section key={section.title} className="relative pb-16 sm:pb-20">
+            <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+              <h2 className="font-display text-2xl font-bold tracking-tight sm:text-3xl">
+                {section.title}
+              </h2>
+              <div className="mt-6 flex flex-col gap-5">
+                {section.paragraphs.map((para) => (
+                  <p key={para.slice(0, 40)} className="text-base leading-relaxed text-text-muted">
+                    {para}
+                  </p>
+                ))}
+                {section.link && (
+                  <p className="text-base leading-relaxed text-text-muted">
+                    {section.link.lead}{" "}
+                    <a
+                      href={section.link.href}
+                      className="font-medium text-[var(--color-neon-blue)] underline-offset-4 hover:underline"
+                    >
+                      {section.link.anchor}
+                    </a>
+                    .
+                  </p>
+                )}
+              </div>
+            </div>
+          </section>
+        ))}
         {children.length > 0 && (
           <RelatedLinks
             heading={`Local SEO Expert in Cities Across ${location.city}`}
